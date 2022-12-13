@@ -1,0 +1,2 @@
+127.0.0.1 - - [03/Jun/2015:10:40:21 +0700] "GET /template/home.html HTTP/1.1" 200 140
+127.0.0.1 - - [03/Jun/2015:14:28:26 +0700] "GET /template/home.html HTTP/1.1" 200 140

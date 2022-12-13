@@ -1,0 +1,148 @@
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.17.7-300.fc21.x86_64
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/vananh/Apps/jdk1.6.0_35/jre
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.6.0_35-b10
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Sun Microsystems Inc.
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/conf/logging.properties
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/endorsed
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/temp
+Jun 3, 2015 10:21:58 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/vananh/Apps/jdk1.6.0_35/jre/lib/amd64/server:/home/vananh/Apps/jdk1.6.0_35/jre/lib/amd64:/home/vananh/Apps/jdk1.6.0_35/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jun 3, 2015 10:21:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jun 3, 2015 10:21:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1608 ms
+Jun 3, 2015 10:21:58 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 3, 2015 10:21:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jun 3, 2015 10:21:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/conf/Catalina/localhost/template.xml
+Jun 3, 2015 10:21:59 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/vananh/Projects/EvoMed/TemplateManagement/Workspace/TemplateWeb/webapp/WEB-INF/lib/el-api-1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+Jun 3, 2015 10:21:59 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/vananh/Projects/EvoMed/TemplateManagement/Workspace/TemplateWeb/webapp/WEB-INF/lib/javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://tiles.apache.org/tags-tiles-extras is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://www.springframework.org/tags is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://www.springframework.org/tags/form is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://tiles.apache.org/tags-tiles-extras is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://tiles.apache.org/tags-tiles-extras is already defined
+Jun 3, 2015 10:22:04 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 3, 2015 10:22:04 AM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.1) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/conf/Catalina/localhost/template.xml has finished in 8,488 ms
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/ROOT
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/ROOT has finished in 52 ms
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/host-manager
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/host-manager has finished in 78 ms
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/docs
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/docs has finished in 45 ms
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/examples
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/examples has finished in 245 ms
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/manager
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Projects/EvoMed/TemplateManagement/apache-tomcat-7.0.62/webapps/manager has finished in 58 ms
+Jun 3, 2015 10:22:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jun 3, 2015 10:22:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 3, 2015 10:22:07 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9102 ms
+Jun 3, 2015 5:59:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jun 3, 2015 5:59:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jun 3, 2015 5:59:21 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 3, 2015 5:59:21 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/template] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jun 3, 2015 5:59:21 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/template] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Jun 3, 2015 5:59:22 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jun 3, 2015 5:59:22 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jun 3, 2015 5:59:22 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jun 3, 2015 5:59:22 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

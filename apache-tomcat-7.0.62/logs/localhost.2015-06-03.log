@@ -1,0 +1,20 @@
+Jun 3, 2015 10:22:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Jun 3, 2015 10:22:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Jun 3, 2015 10:22:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'template'
+Jun 3, 2015 10:22:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jun 3, 2015 10:22:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jun 3, 2015 10:22:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@41babddb')
+Jun 3, 2015 5:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'template'
+Jun 3, 2015 5:59:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jun 3, 2015 5:59:22 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jun 3, 2015 5:59:22 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()

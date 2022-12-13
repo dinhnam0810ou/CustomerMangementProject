@@ -1,0 +1,1775 @@
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.5.5-300.fc24.x86_64
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/java/jdk1.8.0_101/jre
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_101-b13
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/logging.properties
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/endorsed
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62
+Nov 22, 2017 4:56:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/temp
+Nov 22, 2017 4:56:17 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 22, 2017 4:56:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 22, 2017 4:56:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 392 ms
+Nov 22, 2017 4:56:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 22, 2017 4:56:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+Nov 22, 2017 4:56:18 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/data/Projects/EvoMed/Workspace/WebApp/webapp/WEB-INF/lib/servlet-api-3.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml has finished in 251 ms
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/ROOT
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/ROOT has finished in 36 ms
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/host-manager
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/host-manager has finished in 45 ms
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/docs
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/docs has finished in 50 ms
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/examples
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/examples has finished in 150 ms
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/manager
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/webapps/manager has finished in 32 ms
+Nov 22, 2017 4:56:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 22, 2017 4:56:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 22, 2017 4:56:18 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 606 ms
+Nov 22, 2017 5:00:18 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/test]
+Nov 22, 2017 5:00:18 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+Nov 22, 2017 5:00:19 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 22, 2017 5:00:19 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Nov 22, 2017 5:00:19 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Wed Nov 22 17:00:19 ICT 2017]; root of context hierarchy
+Nov 22, 2017 5:00:19 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/data-source.xml]
+Nov 22, 2017 5:00:19 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/core.xml]
+Nov 22, 2017 5:00:19 PM org.springframework.security.core.SpringSecurityCoreVersion <clinit>
+INFO: You are running with Spring Security Core 3.1.3.RELEASE
+Nov 22, 2017 5:00:19 PM org.springframework.security.config.SecurityNamespaceHandler <init>
+INFO: Spring Security 'config' module version is 3.1.3.RELEASE
+Nov 22, 2017 5:00:20 PM org.springframework.security.config.http.HttpSecurityBeanDefinitionParser checkFilterChainOrder
+INFO: Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1900, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2000]
+Nov 22, 2017 5:00:20 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/security.xml]
+Nov 22, 2017 5:00:20 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/crm.xml]
+Nov 22, 2017 5:00:20 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2bc9f99a: defining beans [dataSource,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,webexpressionHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,hibernateProperties,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,passwordEncoder,coreRepository,userService,securityService,taskExecutor,authenticationManager,accessDecisionManager,securityInterceptor,autoProxyCreator,encryptionService,subscriptionService,supportService,mailService,customerService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Nov 22, 2017 5:00:20 PM org.springframework.security.web.DefaultSecurityFilterChain <init>
+INFO: Creating filter chain: org.springframework.security.web.util.AnyRequestMatcher@1, [org.springframework.security.web.context.SecurityContextPersistenceFilter@77ae0f6f, org.springframework.security.web.authentication.logout.LogoutFilter@2e6afe29, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63c38fdc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@24519086, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23833614, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a611ffb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25a3c604, org.springframework.security.web.session.SessionManagementFilter@ddeb796, org.springframework.security.web.access.ExceptionTranslationFilter@37d703af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@651b4c69]
+Nov 22, 2017 5:00:20 PM org.springframework.security.config.http.DefaultFilterChainValidator checkLoginPageIsntProtected
+INFO: Checking whether login URL '/Login.html' is accessible with your configuration
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.UsageStats -> USAGE_STATS
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Installation -> INSTALLATION
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.User -> RIO_USER
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: vn.evolus.rio.service.model.User.roles -> USER_ROLE
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.Session -> SESSION
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Payment -> PAYMENT
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Subscription -> SUBSCRIPTION
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Customer -> CUSTOMER
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.ErrorLog -> ERROR_LOG
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.NameValuePair -> APP_CONFIG
+Nov 22, 2017 5:00:20 PM org.springframework.orm.hibernate3.LocalSessionFactoryBean buildSessionFactory
+INFO: Building new Hibernate SessionFactory
+Nov 22, 2017 5:00:20 PM org.hibernate.connection.ConnectionProviderFactory newConnectionProvider
+INFO: Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.5.3
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC4 with SSL (build 603)
+Nov 22, 2017 5:00:20 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+Nov 22, 2017 5:00:20 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+Nov 22, 2017 5:00:20 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Nov 22, 2017 5:00:20 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: net.sf.ehcache.hibernate.EhCacheProvider
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+Nov 22, 2017 5:00:20 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+Nov 22, 2017 5:00:20 PM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+Nov 22, 2017 5:00:20 PM net.sf.ehcache.config.ConfigurationFactory parseConfiguration
+WARNING: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/data/Projects/EvoMed/Workspace/CRMWebsite/webapp/WEB-INF/lib/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+Nov 22, 2017 5:00:21 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.app_config
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [conf_name, conf_value]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [app_config_pkey]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.customer
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [customer_type, created_time, updated_time, note, host_address, full_name, code, salt, id, email, host_address_time]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [customer_email_key, customer_pkey]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.error_log
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [device_info, system_info, log_date, installation_id, id, stack_trace]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkb9cffc4d34cc3f83]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [error_log_pkey]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.installation
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [created_time, clinic_contact, last_seen, app_ver, active_subs_id, clinic_name, machine_id, id, latest_os, customer_id, hardware]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk38c463ac7849f94, fk38c463a95ba9983]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [installation_pkey, installation_machine_id_key]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.payment
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [reason, used_at, amount, method, ref_code, currency_unit, promo_duration, via, is_used, duration, used_for, id, purchase_code, payer_name, customer_id, payment_date, status]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkfbe7bde695ba9983]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [payment_pkey]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.rio_user
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [user_password, full_name, user_name, enable, user_updated_time, user_created_time, id, photo_res_id, sign_res_id]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [rio_user_pkey, rio_user_user_name_key]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.session
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [user_id, sign_in_time, id]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fka11c0e76552b111a]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [session_user_id_key, session_pkey]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.subscription
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [activate_date, note, expire_date, payment_id, machine_id, id, customer_id, subs_type]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk9e75411d95ba9983, fk9e75411da3ac1a51]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [subscription_pkey]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.usage_stats
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [running_mode, address, app_version, medical_session, patient, contact, name, build_number, installation_id, machine_id, id, update_date]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk175d04134cc3f83]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [usage_stats_pkey]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.user_role
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [role_name, user_id]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkbc16f46a552b111a]
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: []
+Nov 22, 2017 5:00:21 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+Nov 22, 2017 5:00:21 PM org.springframework.orm.hibernate3.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.apache.commons.dbcp.BasicDataSource@3f90bb93] of Hibernate SessionFactory for HibernateTransactionManager
+Nov 22, 2017 5:00:21 PM vn.evolus.rio.server.impl.SecurityService loadCommandsAndPermissions
+INFO: Loading permissions....
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.deleteUser(int) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.changePassword(int,java.lang.String,java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.AuthenticationException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract vn.evolus.rio.service.model.User vn.evolus.rio.service.IUserService.getUserByUsername(java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.forceChangePassword(int,java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.UserNotFoundException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllUsers(java.lang.String,boolean) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllUsersHasRole(java.lang.String,vn.evolus.commons.OrderBy[],boolean) throws vn.evolus.rio.service.exception.InvalidArgumentException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract vn.evolus.rio.service.model.User vn.evolus.rio.service.IUserService.getUserById(int) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateMyProfile(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateUserState(int,boolean) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllRoles() throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract int vn.evolus.rio.service.IUserService.createUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.UsernameExistedException,vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract int vn.evolus.rio.service.IUserService.createUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.UsernameExistedException,vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:00:21 PM org.acegisecurity.intercept.AbstractSecurityInterceptor afterPropertiesSet
+INFO: Validated configuration attributes
+Nov 22, 2017 5:00:21 PM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport initialize
+INFO: Initializing ExecutorService  'taskExecutor'
+Nov 22, 2017 5:00:21 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 1867 ms
+Nov 22, 2017 5:00:21 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'mvcActionServlet': initialization started
+Nov 22, 2017 5:00:21 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'mvcActionServlet-servlet': startup date [Wed Nov 22 17:00:21 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:00:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcActionServlet-servlet.xml]
+Nov 22, 2017 5:00:21 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:00:21 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:00:21 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'mvcAdminServlet': initialization started
+Nov 22, 2017 5:00:21 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'mvcAdminServlet-servlet': startup date [Wed Nov 22 17:00:21 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:00:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcAdminServlet-servlet.xml]
+Nov 22, 2017 5:00:21 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:00:21 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:00:21 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'v2UIServlet': initialization started
+Nov 22, 2017 5:00:21 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'v2UIServlet-servlet': startup date [Wed Nov 22 17:00:21 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:00:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/v2UIServlet-servlet.xml]
+Nov 22, 2017 5:00:21 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:00:21 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:00:21 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml has finished in 3,060 ms
+Nov 22, 2017 5:00:52 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/test]
+Nov 22, 2017 5:00:52 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Wed Nov 22 17:00:19 ICT 2017]; root of context hierarchy
+Nov 22, 2017 5:00:52 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2bc9f99a: defining beans [dataSource,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,webexpressionHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,hibernateProperties,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,passwordEncoder,coreRepository,userService,securityService,taskExecutor,authenticationManager,accessDecisionManager,securityInterceptor,autoProxyCreator,encryptionService,subscriptionService,supportService,mailService,customerService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Nov 22, 2017 5:00:52 PM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport shutdown
+INFO: Shutting down ExecutorService 'taskExecutor'
+Nov 22, 2017 5:00:52 PM org.springframework.orm.hibernate3.AbstractSessionFactoryBean destroy
+INFO: Closing Hibernate SessionFactory
+Nov 22, 2017 5:00:52 PM org.hibernate.impl.SessionFactoryImpl close
+INFO: closing
+Nov 22, 2017 5:00:52 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/test] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 22, 2017 5:00:52 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/test] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Nov 22, 2017 5:00:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/crm.xml
+Nov 22, 2017 5:00:53 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 22, 2017 5:00:53 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Nov 22, 2017 5:00:53 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Wed Nov 22 17:00:53 ICT 2017]; root of context hierarchy
+Nov 22, 2017 5:00:53 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/data-source.xml]
+Nov 22, 2017 5:00:53 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/core.xml]
+Nov 22, 2017 5:00:53 PM org.springframework.security.core.SpringSecurityCoreVersion <clinit>
+INFO: You are running with Spring Security Core 3.1.3.RELEASE
+Nov 22, 2017 5:00:53 PM org.springframework.security.config.SecurityNamespaceHandler <init>
+INFO: Spring Security 'config' module version is 3.1.3.RELEASE
+Nov 22, 2017 5:00:53 PM org.springframework.security.config.http.HttpSecurityBeanDefinitionParser checkFilterChainOrder
+INFO: Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1900, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2000]
+Nov 22, 2017 5:00:53 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/security.xml]
+Nov 22, 2017 5:00:53 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/crm.xml]
+Nov 22, 2017 5:00:53 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@73ac3aed: defining beans [dataSource,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,webexpressionHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,hibernateProperties,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,passwordEncoder,coreRepository,userService,securityService,taskExecutor,authenticationManager,accessDecisionManager,securityInterceptor,autoProxyCreator,encryptionService,subscriptionService,supportService,mailService,customerService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Nov 22, 2017 5:00:53 PM org.springframework.security.web.DefaultSecurityFilterChain <init>
+INFO: Creating filter chain: org.springframework.security.web.util.AnyRequestMatcher@1, [org.springframework.security.web.context.SecurityContextPersistenceFilter@52d1bf23, org.springframework.security.web.authentication.logout.LogoutFilter@7708e234, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@281b7f80, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3c67760b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6310ee03, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53b9a917, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20ad3b9f, org.springframework.security.web.session.SessionManagementFilter@27fdd6af, org.springframework.security.web.access.ExceptionTranslationFilter@43f944a5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d96acdc]
+Nov 22, 2017 5:00:53 PM org.springframework.security.config.http.DefaultFilterChainValidator checkLoginPageIsntProtected
+INFO: Checking whether login URL '/Login.html' is accessible with your configuration
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.UsageStats -> USAGE_STATS
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Installation -> INSTALLATION
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.User -> RIO_USER
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: vn.evolus.rio.service.model.User.roles -> USER_ROLE
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.Session -> SESSION
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Payment -> PAYMENT
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Subscription -> SUBSCRIPTION
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Customer -> CUSTOMER
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.ErrorLog -> ERROR_LOG
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.NameValuePair -> APP_CONFIG
+Nov 22, 2017 5:00:53 PM org.springframework.orm.hibernate3.LocalSessionFactoryBean buildSessionFactory
+INFO: Building new Hibernate SessionFactory
+Nov 22, 2017 5:00:53 PM org.hibernate.connection.ConnectionProviderFactory newConnectionProvider
+INFO: Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.5.3
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC4 with SSL (build 603)
+Nov 22, 2017 5:00:53 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+Nov 22, 2017 5:00:53 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+Nov 22, 2017 5:00:53 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Nov 22, 2017 5:00:53 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: net.sf.ehcache.hibernate.EhCacheProvider
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+Nov 22, 2017 5:00:53 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+Nov 22, 2017 5:00:53 PM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+Nov 22, 2017 5:00:53 PM net.sf.ehcache.config.ConfigurationFactory parseConfiguration
+WARNING: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/data/Projects/EvoMed/Workspace/CRMWebsite/webapp/WEB-INF/lib/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+Nov 22, 2017 5:00:54 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.app_config
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [conf_name, conf_value]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [app_config_pkey]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.customer
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [customer_type, created_time, updated_time, note, host_address, code, salt, full_name, dns_alias, internal_download_url, id, external_update_port, email, host_address_time]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [customer_email_key, customer_pkey]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.error_log
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [device_info, system_info, log_date, installation_id, id, stack_trace]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkb9cffc4d34cc3f83]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [error_log_pkey]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.installation
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [created_time, clinic_contact, last_seen, app_ver, active_subs_id, clinic_name, machine_id, id, latest_os, customer_id, hardware]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk38c463ac7849f94, fk38c463a95ba9983]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [installation_pkey, installation_machine_id_key]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.payment
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [reason, used_at, amount, method, ref_code, currency_unit, promo_duration, via, is_used, duration, used_for, id, purchase_code, payer_name, customer_id, payment_date, status]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkfbe7bde695ba9983]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [payment_pkey]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.rio_user
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [user_password, full_name, user_name, enable, user_updated_time, user_created_time, id, photo_res_id, sign_res_id]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [rio_user_pkey, rio_user_user_name_key]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.session
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [user_id, sign_in_time, id]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fka11c0e76552b111a]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [session_user_id_key, session_pkey]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.subscription
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [activate_date, note, expire_date, payment_id, machine_id, id, customer_id, subs_type]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk9e75411d95ba9983, fk9e75411da3ac1a51]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [subscription_pkey]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.usage_stats
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [running_mode, address, app_version, medical_session, patient, contact, name, build_number, installation_id, machine_id, id, update_date]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk175d04134cc3f83]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [usage_stats_pkey]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.user_role
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [role_name, user_id]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkbc16f46a552b111a]
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: []
+Nov 22, 2017 5:00:54 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+Nov 22, 2017 5:00:54 PM org.springframework.orm.hibernate3.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.apache.commons.dbcp.BasicDataSource@406b28cb] of Hibernate SessionFactory for HibernateTransactionManager
+Nov 22, 2017 5:00:54 PM vn.evolus.rio.server.impl.SecurityService loadCommandsAndPermissions
+INFO: Loading permissions....
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.deleteUser(int) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.changePassword(int,java.lang.String,java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.AuthenticationException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract vn.evolus.rio.service.model.User vn.evolus.rio.service.IUserService.getUserByUsername(java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.forceChangePassword(int,java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.UserNotFoundException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllUsers(java.lang.String,boolean) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllUsersHasRole(java.lang.String,vn.evolus.commons.OrderBy[],boolean) throws vn.evolus.rio.service.exception.InvalidArgumentException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract vn.evolus.rio.service.model.User vn.evolus.rio.service.IUserService.getUserById(int) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateMyProfile(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateUserState(int,boolean) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllRoles() throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract int vn.evolus.rio.service.IUserService.createUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.UsernameExistedException,vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract int vn.evolus.rio.service.IUserService.createUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.UsernameExistedException,vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:00:54 PM org.acegisecurity.intercept.AbstractSecurityInterceptor afterPropertiesSet
+INFO: Validated configuration attributes
+Nov 22, 2017 5:00:54 PM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport initialize
+INFO: Initializing ExecutorService  'taskExecutor'
+Nov 22, 2017 5:00:54 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 1431 ms
+Nov 22, 2017 5:00:54 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'mvcActionServlet': initialization started
+Nov 22, 2017 5:00:54 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'mvcActionServlet-servlet': startup date [Wed Nov 22 17:00:54 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:00:54 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcActionServlet-servlet.xml]
+Nov 22, 2017 5:00:54 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:00:54 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:00:54 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'mvcAdminServlet': initialization started
+Nov 22, 2017 5:00:54 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'mvcAdminServlet-servlet': startup date [Wed Nov 22 17:00:54 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:00:54 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcAdminServlet-servlet.xml]
+Nov 22, 2017 5:00:54 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:00:54 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:00:54 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'v2UIServlet': initialization started
+Nov 22, 2017 5:00:54 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'v2UIServlet-servlet': startup date [Wed Nov 22 17:00:54 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:00:54 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/v2UIServlet-servlet.xml]
+Nov 22, 2017 5:00:54 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:00:54 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:00:54 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/crm.xml has finished in 2,366 ms
+Nov 22, 2017 5:01:14 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/crm (copy).xml
+Nov 22, 2017 5:01:15 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 22, 2017 5:01:15 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Nov 22, 2017 5:01:15 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Wed Nov 22 17:01:15 ICT 2017]; root of context hierarchy
+Nov 22, 2017 5:01:15 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/data-source.xml]
+Nov 22, 2017 5:01:15 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/core.xml]
+Nov 22, 2017 5:01:15 PM org.springframework.security.core.SpringSecurityCoreVersion <clinit>
+INFO: You are running with Spring Security Core 3.1.3.RELEASE
+Nov 22, 2017 5:01:15 PM org.springframework.security.config.SecurityNamespaceHandler <init>
+INFO: Spring Security 'config' module version is 3.1.3.RELEASE
+Nov 22, 2017 5:01:15 PM org.springframework.security.config.http.HttpSecurityBeanDefinitionParser checkFilterChainOrder
+INFO: Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1900, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2000]
+Nov 22, 2017 5:01:15 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/security.xml]
+Nov 22, 2017 5:01:15 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/crm.xml]
+Nov 22, 2017 5:01:15 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6949d33c: defining beans [dataSource,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,webexpressionHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,hibernateProperties,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,passwordEncoder,coreRepository,userService,securityService,taskExecutor,authenticationManager,accessDecisionManager,securityInterceptor,autoProxyCreator,encryptionService,subscriptionService,supportService,mailService,customerService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Nov 22, 2017 5:01:15 PM org.springframework.security.web.DefaultSecurityFilterChain <init>
+INFO: Creating filter chain: org.springframework.security.web.util.AnyRequestMatcher@1, [org.springframework.security.web.context.SecurityContextPersistenceFilter@5d6a71f0, org.springframework.security.web.authentication.logout.LogoutFilter@4dff7e3f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@433446a0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@51dd2fed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fb631d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@690ea298, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@86ee85f, org.springframework.security.web.session.SessionManagementFilter@30740cf8, org.springframework.security.web.access.ExceptionTranslationFilter@5e22aba8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4224c896]
+Nov 22, 2017 5:01:15 PM org.springframework.security.config.http.DefaultFilterChainValidator checkLoginPageIsntProtected
+INFO: Checking whether login URL '/Login.html' is accessible with your configuration
+Nov 22, 2017 5:01:15 PM org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+Nov 22, 2017 5:01:15 PM org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+Nov 22, 2017 5:01:15 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+Nov 22, 2017 5:01:15 PM org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+Nov 22, 2017 5:01:15 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.UsageStats -> USAGE_STATS
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Installation -> INSTALLATION
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.User -> RIO_USER
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: vn.evolus.rio.service.model.User.roles -> USER_ROLE
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.Session -> SESSION
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Payment -> PAYMENT
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Subscription -> SUBSCRIPTION
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Customer -> CUSTOMER
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.ErrorLog -> ERROR_LOG
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.NameValuePair -> APP_CONFIG
+Nov 22, 2017 5:01:16 PM org.springframework.orm.hibernate3.LocalSessionFactoryBean buildSessionFactory
+INFO: Building new Hibernate SessionFactory
+Nov 22, 2017 5:01:16 PM org.hibernate.connection.ConnectionProviderFactory newConnectionProvider
+INFO: Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.5.3
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC4 with SSL (build 603)
+Nov 22, 2017 5:01:16 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+Nov 22, 2017 5:01:16 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+Nov 22, 2017 5:01:16 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Nov 22, 2017 5:01:16 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: net.sf.ehcache.hibernate.EhCacheProvider
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+Nov 22, 2017 5:01:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+Nov 22, 2017 5:01:16 PM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+Nov 22, 2017 5:01:16 PM net.sf.ehcache.config.ConfigurationFactory parseConfiguration
+WARNING: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/data/Projects/EvoMed/Workspace/CRMWebsite/webapp/WEB-INF/lib/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+Nov 22, 2017 5:01:16 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.app_config
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [conf_name, conf_value]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [app_config_pkey]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.customer
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [customer_type, created_time, updated_time, note, host_address, code, salt, full_name, dns_alias, internal_download_url, id, external_update_port, email, host_address_time]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [customer_email_key, customer_pkey]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.error_log
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [device_info, system_info, log_date, installation_id, id, stack_trace]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkb9cffc4d34cc3f83]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [error_log_pkey]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.installation
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [created_time, clinic_contact, last_seen, app_ver, active_subs_id, clinic_name, machine_id, id, latest_os, customer_id, hardware]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk38c463ac7849f94, fk38c463a95ba9983]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [installation_pkey, installation_machine_id_key]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.payment
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [reason, used_at, amount, method, ref_code, currency_unit, promo_duration, via, is_used, duration, used_for, id, purchase_code, payer_name, customer_id, payment_date, status]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkfbe7bde695ba9983]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [payment_pkey]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.rio_user
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [user_password, full_name, user_name, enable, user_updated_time, user_created_time, id, photo_res_id, sign_res_id]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [rio_user_pkey, rio_user_user_name_key]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.session
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [user_id, sign_in_time, id]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fka11c0e76552b111a]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [session_user_id_key, session_pkey]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.subscription
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [activate_date, note, expire_date, payment_id, machine_id, id, customer_id, subs_type]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk9e75411d95ba9983, fk9e75411da3ac1a51]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [subscription_pkey]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.usage_stats
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [running_mode, address, app_version, medical_session, patient, contact, name, build_number, installation_id, machine_id, id, update_date]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk175d04134cc3f83]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [usage_stats_pkey]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.user_role
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [role_name, user_id]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkbc16f46a552b111a]
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: []
+Nov 22, 2017 5:01:16 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+Nov 22, 2017 5:01:16 PM org.springframework.orm.hibernate3.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.apache.commons.dbcp.BasicDataSource@6b4d71c] of Hibernate SessionFactory for HibernateTransactionManager
+Nov 22, 2017 5:01:16 PM vn.evolus.rio.server.impl.SecurityService loadCommandsAndPermissions
+INFO: Loading permissions....
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.deleteUser(int) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.changePassword(int,java.lang.String,java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.AuthenticationException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract vn.evolus.rio.service.model.User vn.evolus.rio.service.IUserService.getUserByUsername(java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.forceChangePassword(int,java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.UserNotFoundException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllUsers(java.lang.String,boolean) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllUsersHasRole(java.lang.String,vn.evolus.commons.OrderBy[],boolean) throws vn.evolus.rio.service.exception.InvalidArgumentException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract vn.evolus.rio.service.model.User vn.evolus.rio.service.IUserService.getUserById(int) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateMyProfile(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateUserState(int,boolean) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllRoles() throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract int vn.evolus.rio.service.IUserService.createUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.UsernameExistedException,vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract int vn.evolus.rio.service.IUserService.createUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.UsernameExistedException,vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:01:16 PM org.acegisecurity.intercept.AbstractSecurityInterceptor afterPropertiesSet
+INFO: Validated configuration attributes
+Nov 22, 2017 5:01:16 PM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport initialize
+INFO: Initializing ExecutorService  'taskExecutor'
+Nov 22, 2017 5:01:16 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 1402 ms
+Nov 22, 2017 5:01:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'mvcActionServlet': initialization started
+Nov 22, 2017 5:01:16 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'mvcActionServlet-servlet': startup date [Wed Nov 22 17:01:16 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:01:16 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcActionServlet-servlet.xml]
+Nov 22, 2017 5:01:16 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:01:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:01:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'mvcAdminServlet': initialization started
+Nov 22, 2017 5:01:16 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'mvcAdminServlet-servlet': startup date [Wed Nov 22 17:01:16 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:01:16 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcAdminServlet-servlet.xml]
+Nov 22, 2017 5:01:16 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:01:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:01:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'v2UIServlet': initialization started
+Nov 22, 2017 5:01:16 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'v2UIServlet-servlet': startup date [Wed Nov 22 17:01:16 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:01:16 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/v2UIServlet-servlet.xml]
+Nov 22, 2017 5:01:16 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:01:16 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:01:16 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/crm (copy).xml has finished in 2,215 ms
+Nov 22, 2017 5:01:27 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/crm (copy)]
+Nov 22, 2017 5:01:27 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Wed Nov 22 17:01:15 ICT 2017]; root of context hierarchy
+Nov 22, 2017 5:01:27 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6949d33c: defining beans [dataSource,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,webexpressionHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,hibernateProperties,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,passwordEncoder,coreRepository,userService,securityService,taskExecutor,authenticationManager,accessDecisionManager,securityInterceptor,autoProxyCreator,encryptionService,subscriptionService,supportService,mailService,customerService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Nov 22, 2017 5:01:27 PM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport shutdown
+INFO: Shutting down ExecutorService 'taskExecutor'
+Nov 22, 2017 5:01:27 PM org.springframework.orm.hibernate3.AbstractSessionFactoryBean destroy
+INFO: Closing Hibernate SessionFactory
+Nov 22, 2017 5:01:27 PM org.hibernate.impl.SessionFactoryImpl close
+INFO: closing
+Nov 22, 2017 5:01:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/crm (copy)] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 22, 2017 5:01:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/crm (copy)] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 22, 2017 5:01:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+Nov 22, 2017 5:01:27 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 22, 2017 5:01:27 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Nov 22, 2017 5:01:27 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Wed Nov 22 17:01:27 ICT 2017]; root of context hierarchy
+Nov 22, 2017 5:01:28 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/data-source.xml]
+Nov 22, 2017 5:01:28 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/core.xml]
+Nov 22, 2017 5:01:28 PM org.springframework.security.core.SpringSecurityCoreVersion <clinit>
+INFO: You are running with Spring Security Core 3.1.3.RELEASE
+Nov 22, 2017 5:01:28 PM org.springframework.security.config.SecurityNamespaceHandler <init>
+INFO: Spring Security 'config' module version is 3.1.3.RELEASE
+Nov 22, 2017 5:01:28 PM org.springframework.security.config.http.HttpSecurityBeanDefinitionParser checkFilterChainOrder
+INFO: Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, <org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0>, order = 800, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1200, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1300, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1400, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1800, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1900, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2000]
+Nov 22, 2017 5:01:28 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/security.xml]
+Nov 22, 2017 5:01:28 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/crm.xml]
+Nov 22, 2017 5:01:28 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3c1f038a: defining beans [dataSource,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,webexpressionHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,hibernateProperties,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,passwordEncoder,coreRepository,userService,securityService,taskExecutor,authenticationManager,accessDecisionManager,securityInterceptor,autoProxyCreator,encryptionService,subscriptionService,supportService,mailService,customerService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Nov 22, 2017 5:01:28 PM org.springframework.security.web.DefaultSecurityFilterChain <init>
+INFO: Creating filter chain: org.springframework.security.web.util.AnyRequestMatcher@1, [org.springframework.security.web.context.SecurityContextPersistenceFilter@b794fba, org.springframework.security.web.authentication.logout.LogoutFilter@66f76aa9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d1a3d78, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@70037ad9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3146fffc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c39695f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2084685d, org.springframework.security.web.session.SessionManagementFilter@4bba0b26, org.springframework.security.web.access.ExceptionTranslationFilter@4d85b4b2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a515fcc]
+Nov 22, 2017 5:01:28 PM org.springframework.security.config.http.DefaultFilterChainValidator checkLoginPageIsntProtected
+INFO: Checking whether login URL '/Login.html' is accessible with your configuration
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.5
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.UsageStats -> USAGE_STATS
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Installation -> INSTALLATION
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.User -> RIO_USER
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindCollection
+INFO: Mapping collection: vn.evolus.rio.service.model.User.roles -> USER_ROLE
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.Session -> SESSION
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Payment -> PAYMENT
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Subscription -> SUBSCRIPTION
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.Customer -> CUSTOMER
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.evomed.crm.model.ErrorLog -> ERROR_LOG
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: vn.evolus.rio.service.model.NameValuePair -> APP_CONFIG
+Nov 22, 2017 5:01:28 PM org.springframework.orm.hibernate3.LocalSessionFactoryBean buildSessionFactory
+INFO: Building new Hibernate SessionFactory
+Nov 22, 2017 5:01:28 PM org.hibernate.connection.ConnectionProviderFactory newConnectionProvider
+INFO: Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.5.3
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC4 with SSL (build 603)
+Nov 22, 2017 5:01:28 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+Nov 22, 2017 5:01:28 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+Nov 22, 2017 5:01:28 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+Nov 22, 2017 5:01:28 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: net.sf.ehcache.hibernate.EhCacheProvider
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+Nov 22, 2017 5:01:28 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+Nov 22, 2017 5:01:28 PM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+Nov 22, 2017 5:01:28 PM net.sf.ehcache.config.ConfigurationFactory parseConfiguration
+WARNING: No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/home/data/Projects/EvoMed/Workspace/CRMWebsite/webapp/WEB-INF/lib/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+Nov 22, 2017 5:01:28 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.app_config
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [conf_name, conf_value]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [app_config_pkey]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.customer
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [customer_type, created_time, updated_time, note, host_address, code, salt, full_name, dns_alias, internal_download_url, id, external_update_port, email, host_address_time]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [customer_email_key, customer_pkey]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.error_log
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [device_info, system_info, log_date, installation_id, id, stack_trace]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkb9cffc4d34cc3f83]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [error_log_pkey]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.installation
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [created_time, clinic_contact, last_seen, app_ver, active_subs_id, clinic_name, machine_id, id, latest_os, customer_id, hardware]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk38c463ac7849f94, fk38c463a95ba9983]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [installation_pkey, installation_machine_id_key]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.payment
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [reason, used_at, amount, method, ref_code, currency_unit, promo_duration, via, is_used, duration, used_for, id, purchase_code, payer_name, customer_id, payment_date, status]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkfbe7bde695ba9983]
+Nov 22, 2017 5:01:28 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [payment_pkey]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.rio_user
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [user_password, full_name, user_name, enable, user_updated_time, user_created_time, id, photo_res_id, sign_res_id]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [rio_user_pkey, rio_user_user_name_key]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.session
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [user_id, sign_in_time, id]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fka11c0e76552b111a]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [session_user_id_key, session_pkey]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.subscription
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [activate_date, note, expire_date, payment_id, machine_id, id, customer_id, subs_type]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk9e75411d95ba9983, fk9e75411da3ac1a51]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [subscription_pkey]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.usage_stats
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [running_mode, address, app_version, medical_session, patient, contact, name, build_number, installation_id, machine_id, id, update_date]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk175d04134cc3f83]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [usage_stats_pkey]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.user_role
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [role_name, user_id]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fkbc16f46a552b111a]
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: []
+Nov 22, 2017 5:01:29 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+Nov 22, 2017 5:01:29 PM org.springframework.orm.hibernate3.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.apache.commons.dbcp.BasicDataSource@5354f1e7] of Hibernate SessionFactory for HibernateTransactionManager
+Nov 22, 2017 5:01:29 PM vn.evolus.rio.server.impl.SecurityService loadCommandsAndPermissions
+INFO: Loading permissions....
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.deleteUser(int) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.changePassword(int,java.lang.String,java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.AuthenticationException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract vn.evolus.rio.service.model.User vn.evolus.rio.service.IUserService.getUserByUsername(java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.forceChangePassword(int,java.lang.String) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.UserNotFoundException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllUsers(java.lang.String,boolean) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllUsersHasRole(java.lang.String,vn.evolus.commons.OrderBy[],boolean) throws vn.evolus.rio.service.exception.InvalidArgumentException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract vn.evolus.rio.service.model.User vn.evolus.rio.service.IUserService.getUserById(int) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.UserNotFoundException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateMyProfile(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract void vn.evolus.rio.service.IUserService.updateUserState(int,boolean) throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract java.util.List vn.evolus.rio.service.IUserService.getAllRoles() throws vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract int vn.evolus.rio.service.IUserService.createUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.UsernameExistedException,vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[USER]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.method.MethodDefinitionMap addSecureMethod
+INFO: Adding secure method [public abstract int vn.evolus.rio.service.IUserService.createUser(vn.evolus.rio.service.model.User) throws vn.evolus.rio.service.exception.UsernameExistedException,vn.evolus.rio.service.exception.BusinessException,vn.evolus.rio.service.exception.InvalidArgumentException,vn.evolus.rio.service.exception.InvalidSessionException] with attributes [[ADMINISTRATOR]]
+Nov 22, 2017 5:01:29 PM org.acegisecurity.intercept.AbstractSecurityInterceptor afterPropertiesSet
+INFO: Validated configuration attributes
+Nov 22, 2017 5:01:29 PM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport initialize
+INFO: Initializing ExecutorService  'taskExecutor'
+Nov 22, 2017 5:01:29 PM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 1206 ms
+Nov 22, 2017 5:01:29 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'mvcActionServlet': initialization started
+Nov 22, 2017 5:01:29 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'mvcActionServlet-servlet': startup date [Wed Nov 22 17:01:29 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:01:29 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcActionServlet-servlet.xml]
+Nov 22, 2017 5:01:29 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:01:29 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:01:29 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'mvcAdminServlet': initialization started
+Nov 22, 2017 5:01:29 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'mvcAdminServlet-servlet': startup date [Wed Nov 22 17:01:29 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:01:29 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/mvcAdminServlet-servlet.xml]
+Nov 22, 2017 5:01:29 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:01:29 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:01:29 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+INFO: FrameworkServlet 'v2UIServlet': initialization started
+Nov 22, 2017 5:01:29 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'v2UIServlet-servlet': startup date [Wed Nov 22 17:01:29 ICT 2017]; parent: Root WebApplicationContext
+Nov 22, 2017 5:01:29 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/v2UIServlet-servlet.xml]
+Nov 22, 2017 5:01:29 PM org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Nov 22, 2017 5:01:29 PM org.springframework.web.servlet.FrameworkServlet initServletBean
+SEVERE: Context initialization failed
+java.lang.IllegalArgumentException
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.asm.ClassReader.<init>(Unknown Source)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:52)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:80)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:101)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:76)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:257)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:148)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:125)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:282)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:220)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:459)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:638)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:595)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:514)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:455)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:138)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5266)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5554)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:01:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml has finished in 1,918 ms
+Nov 22, 2017 5:03:19 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/test]
+Nov 22, 2017 5:03:19 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Wed Nov 22 17:01:27 ICT 2017]; root of context hierarchy
+Nov 22, 2017 5:03:19 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3c1f038a: defining beans [dataSource,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,webexpressionHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,hibernateProperties,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,passwordEncoder,coreRepository,userService,securityService,taskExecutor,authenticationManager,accessDecisionManager,securityInterceptor,autoProxyCreator,encryptionService,subscriptionService,supportService,mailService,customerService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Nov 22, 2017 5:03:19 PM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport shutdown
+INFO: Shutting down ExecutorService 'taskExecutor'
+Nov 22, 2017 5:03:19 PM org.springframework.orm.hibernate3.AbstractSessionFactoryBean destroy
+INFO: Closing Hibernate SessionFactory
+Nov 22, 2017 5:03:19 PM org.hibernate.impl.SessionFactoryImpl close
+INFO: closing
+Nov 22, 2017 5:03:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/test] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 22, 2017 5:03:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/test] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 22, 2017 5:03:19 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+Nov 22, 2017 5:03:19 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/data/Projects/EvoMed/Workspace/WebApp/webapp/WEB-INF/lib/servlet-api-3.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 22, 2017 5:03:19 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /opt/hd2/vananh/Documents/Training/WebApp/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml has finished in 27 ms
+Nov 22, 2017 5:06:19 PM org.apache.catalina.loader.WebappClassLoader modified
+INFO:     Additional JARs have been added : 'jetty-all-9.2.21.v20170120.jar'
+Nov 22, 2017 5:06:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/test] has started
+Nov 22, 2017 5:06:19 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/data/Projects/EvoMed/Workspace/WebApp/webapp/WEB-INF/lib/servlet-api-3.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 22, 2017 5:06:19 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error during ServletContainerInitializer processing
+javax.servlet.ServletException: Not running on Jetty, JSR-356 support unavailable
+	at org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer.onStartup(WebSocketServerContainerInitializer.java:149)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4033)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1345)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:745)
+
+Nov 22, 2017 5:06:19 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/test] startup failed due to previous errors
+Nov 22, 2017 5:06:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/test] is completed
+Nov 22, 2017 6:01:51 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 22, 2017 6:01:51 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 22, 2017 6:01:51 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 22, 2017 6:01:51 PM org.springframework.context.support.AbstractApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Wed Nov 22 17:00:53 ICT 2017]; root of context hierarchy
+Nov 22, 2017 6:01:51 PM org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@73ac3aed: defining beans [dataSource,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor#0,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint#0,org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#0,webexpressionHandler,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager,hibernateProperties,sessionFactory,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,passwordEncoder,coreRepository,userService,securityService,taskExecutor,authenticationManager,accessDecisionManager,securityInterceptor,autoProxyCreator,encryptionService,subscriptionService,supportService,mailService,customerService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Nov 22, 2017 6:01:51 PM org.springframework.scheduling.concurrent.ExecutorConfigurationSupport shutdown
+INFO: Shutting down ExecutorService 'taskExecutor'
+Nov 22, 2017 6:01:51 PM org.springframework.orm.hibernate3.AbstractSessionFactoryBean destroy
+INFO: Closing Hibernate SessionFactory
+Nov 22, 2017 6:01:51 PM org.hibernate.impl.SessionFactoryImpl close
+INFO: closing
+Nov 22, 2017 6:01:51 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/crm] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 22, 2017 6:01:51 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/crm] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 22, 2017 6:01:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 22, 2017 6:01:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 22, 2017 6:01:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Nov 22, 2017 6:01:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

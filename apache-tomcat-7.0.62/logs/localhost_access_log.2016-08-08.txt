@@ -1,0 +1,14 @@
+127.0.0.1 - - [08/Aug/2016:16:33:00 +0700] "GET /crm/test HTTP/1.1" 302 -
+127.0.0.1 - - [08/Aug/2016:16:33:01 +0700] "GET /crm/test/ HTTP/1.1" 500 8890
+127.0.0.1 - - [08/Aug/2016:16:33:08 +0700] "GET /crm/test/index.html HTTP/1.1" 500 8890
+127.0.0.1 - - [08/Aug/2016:16:33:15 +0700] "GET /crm HTTP/1.1" 302 -
+127.0.0.1 - - [08/Aug/2016:16:33:15 +0700] "GET /crm/ HTTP/1.1" 302 -
+127.0.0.1 - - [08/Aug/2016:16:33:15 +0700] "GET /crm/Admin/Activity/Summary.html HTTP/1.1" 302 -
+127.0.0.1 - - [08/Aug/2016:16:33:16 +0700] "GET /crm/Login.html HTTP/1.1" 200 3052
+127.0.0.1 - - [08/Aug/2016:16:33:16 +0700] "GET /crm/styling/home.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/Aug/2016:16:33:16 +0700] "GET /crm/styling/desktop.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/Aug/2016:16:33:16 +0700] "GET /crm/styling/common.css HTTP/1.1" 304 -
+127.0.0.1 - - [08/Aug/2016:16:33:16 +0700] "GET /crm/styling/images/logo48.png HTTP/1.1" 200 4965
+127.0.0.1 - - [08/Aug/2016:16:33:18 +0700] "POST /crm/j_spring_security_check HTTP/1.1" 302 -
+127.0.0.1 - - [08/Aug/2016:16:33:18 +0700] "GET /crm/Admin/Activity/Summary.html HTTP/1.1" 200 6146
+127.0.0.1 - - [08/Aug/2016:16:33:29 +0700] "GET /crm/test/index.html HTTP/1.1" 500 8890

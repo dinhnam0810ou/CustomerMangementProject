@@ -1,0 +1,130 @@
+Aug 12, 2016 9:42:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 12, 2016 9:42:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Aug 12, 2016 9:42:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 9:42:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 9:42:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 9:42:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Aug 12, 2016 9:42:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Aug 12, 2016 9:42:44 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1f72e08e')
+Aug 12, 2016 2:00:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 2:00:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 2:00:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 2:00:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Aug 12, 2016 2:00:20 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 12, 2016 2:00:20 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Aug 12, 2016 2:00:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 2:00:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 2:00:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 2:00:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Aug 12, 2016 2:00:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Aug 12, 2016 2:00:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 2:00:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 2:00:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 2:00:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Aug 12, 2016 2:00:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 12, 2016 2:00:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Aug 12, 2016 2:00:51 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 2:00:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 2:00:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 2:00:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Aug 12, 2016 2:00:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Aug 12, 2016 2:00:52 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3cecfaea')
+Aug 12, 2016 3:18:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Aug 12, 2016 3:18:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Aug 12, 2016 3:18:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 3:18:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 3:18:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 3:18:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Aug 12, 2016 3:19:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 12, 2016 3:19:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Aug 12, 2016 3:19:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 3:19:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 3:19:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 3:19:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Aug 12, 2016 3:19:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Aug 12, 2016 3:19:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5b3d9c02')
+Aug 12, 2016 4:48:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Aug 12, 2016 4:48:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Aug 12, 2016 4:48:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 4:48:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 4:48:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 4:48:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Aug 12, 2016 4:48:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 12, 2016 4:48:21 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Aug 12, 2016 4:48:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 4:48:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 4:48:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 4:48:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Aug 12, 2016 4:48:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Aug 12, 2016 4:48:24 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3c34e2cc')
+Aug 12, 2016 6:01:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Aug 12, 2016 6:01:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Aug 12, 2016 6:01:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'v2UIServlet'
+Aug 12, 2016 6:01:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcAdminServlet'
+Aug 12, 2016 6:01:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvcActionServlet'
+Aug 12, 2016 6:01:47 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext

@@ -1,0 +1,2045 @@
+Jul 06, 2021 8:05:04 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:05:04 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:19:44 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:19:44 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:19:44 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:19:44 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:20:00 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:20:00 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:20:00 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 06, 2021 8:20:00 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:20:00 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:20:00 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:20:00 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.5.7-200.fc31.x86_64
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc31.x86_64/jre
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_242-b08
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/logging.properties
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/endorsed
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/temp
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 06, 2021 8:20:03 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:20:03 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 502 ms
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml has finished in 79 ms
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml has finished in 9 ms
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:20:03 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 420 ms
+Jul 06, 2021 8:20:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples
+Jul 06, 2021 8:20:04 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:20:04 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jul 06, 2021 8:20:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples has finished in 158 ms
+Jul 06, 2021 8:20:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager
+Jul 06, 2021 8:20:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager has finished in 54 ms
+Jul 06, 2021 8:20:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs
+Jul 06, 2021 8:20:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs has finished in 33 ms
+Jul 06, 2021 8:20:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager
+Jul 06, 2021 8:20:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager has finished in 35 ms
+Jul 06, 2021 8:20:04 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:20:04 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:20:04 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 841 ms
+Jul 06, 2021 8:22:08 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:22:08 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:22:08 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 06, 2021 8:22:08 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:22:08 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:22:08 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:22:08 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.5.7-200.fc31.x86_64
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc31.x86_64/jre
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_242-b08
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/logging.properties
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/endorsed
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/temp
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 06, 2021 8:22:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:22:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 391 ms
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml has finished in 76 ms
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml has finished in 7 ms
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 408 ms
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:22:11 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples has finished in 140 ms
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager has finished in 60 ms
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs has finished in 33 ms
+Jul 06, 2021 8:22:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager
+Jul 06, 2021 8:22:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager has finished in 47 ms
+Jul 06, 2021 8:22:12 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:22:12 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:22:12 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 827 ms
+Jul 06, 2021 8:23:22 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:23:22 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:24:12 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:24:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:24:12 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:24:12 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:24:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:24:22 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:24:22 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:24:22 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:26:42 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:26:42 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:26:42 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:26:47 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:26:47 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:26:47 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 06, 2021 8:26:47 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:26:47 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:26:47 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:26:47 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.5.7-200.fc31.x86_64
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc31.x86_64/jre
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_242-b08
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/logging.properties
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/endorsed
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/temp
+Jul 06, 2021 8:26:51 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 06, 2021 8:26:51 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:26:51 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 437 ms
+Jul 06, 2021 8:26:51 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 06, 2021 8:26:51 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+Jul 06, 2021 8:26:51 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:26:51 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml has finished in 73 ms
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+Jul 06, 2021 8:26:51 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:26:51 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml has finished in 10 ms
+Jul 06, 2021 8:26:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 06, 2021 8:26:51 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Jul 06, 2021 8:26:52 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:26:52 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 443 ms
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples
+Jul 06, 2021 8:26:52 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:26:52 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples has finished in 160 ms
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager has finished in 57 ms
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs has finished in 30 ms
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager has finished in 37 ms
+Jul 06, 2021 8:26:52 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:26:52 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:26:52 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 858 ms
+Jul 06, 2021 8:29:52 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:30:02 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:30:02 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:30:02 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:30:22 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:30:22 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:31:42 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:31:42 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:31:42 AM org.apache.tomcat.util.digester.Digester endElement
+SEVERE: End event threw exception
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethod1(IntrospectionUtils.java:852)
+	at org.apache.tomcat.util.digester.SetNextRule.end(SetNextRule.java:201)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1060)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1555)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1843)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1263)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:889)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:386)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4033)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1497)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1695)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Duplicate filter name [CountFilter]
+	at org.apache.catalina.deploy.WebXml.addFilter(WebXml.java:243)
+	... 38 more
+
+Jul 06, 2021 8:31:42 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/WEB-INF/web.xml; lineNumber: 18; columnNumber: 14; Error at (18, 14) : Duplicate filter name [CountFilter]
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2705)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2737)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1063)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1555)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1843)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1263)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:889)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:386)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4033)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1497)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1695)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Duplicate filter name [CountFilter]
+	at org.apache.catalina.deploy.WebXml.addFilter(WebXml.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethod1(IntrospectionUtils.java:852)
+	at org.apache.tomcat.util.digester.SetNextRule.end(SetNextRule.java:201)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1060)
+	... 31 more
+
+Jul 06, 2021 8:31:42 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 18 column 14
+Jul 06, 2021 8:31:42 AM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Jul 06, 2021 8:31:42 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more components marked the context as not correctly configured
+Jul 06, 2021 8:31:42 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:31:42 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:31:52 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:31:52 AM org.apache.tomcat.util.digester.Digester endElement
+SEVERE: End event threw exception
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethod1(IntrospectionUtils.java:852)
+	at org.apache.tomcat.util.digester.SetNextRule.end(SetNextRule.java:201)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1060)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1555)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1843)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1263)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:889)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:386)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1533)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1497)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1695)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Duplicate filter name [CountFilter]
+	at org.apache.catalina.deploy.WebXml.addFilter(WebXml.java:243)
+	... 37 more
+
+Jul 06, 2021 8:31:52 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/WEB-INF/web.xml; lineNumber: 18; columnNumber: 14; Error at (18, 14) : Duplicate filter name [CountFilter]
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2705)
+	at org.apache.tomcat.util.digester.Digester.createSAXException(Digester.java:2737)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1063)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1555)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1843)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1263)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:889)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:386)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1533)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1497)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1695)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Duplicate filter name [CountFilter]
+	at org.apache.catalina.deploy.WebXml.addFilter(WebXml.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.IntrospectionUtils.callMethod1(IntrospectionUtils.java:852)
+	at org.apache.tomcat.util.digester.SetNextRule.end(SetNextRule.java:201)
+	at org.apache.tomcat.util.digester.Digester.endElement(Digester.java:1060)
+	... 30 more
+
+Jul 06, 2021 8:31:52 AM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 18 column 14
+Jul 06, 2021 8:31:52 AM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Jul 06, 2021 8:31:53 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more components marked the context as not correctly configured
+Jul 06, 2021 8:31:53 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:32:03 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:32:03 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:32:03 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:32:53 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:33:03 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:33:03 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:33:03 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:33:23 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:33:23 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:33:23 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:34:43 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:34:43 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:34:43 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:34:53 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:34:53 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:35:43 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 8:35:43 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 8:35:43 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:35:43 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 8:35:43 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 8:36:56 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:36:56 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:36:56 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 06, 2021 8:36:56 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:36:56 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:36:56 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:36:56 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.5.7-200.fc31.x86_64
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc31.x86_64/jre
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_242-b08
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/logging.properties
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/endorsed
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/temp
+Jul 06, 2021 8:36:58 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 06, 2021 8:36:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:36:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 394 ms
+Jul 06, 2021 8:36:58 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 06, 2021 8:36:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+Jul 06, 2021 8:36:58 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:36:58 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml has finished in 61 ms
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+Jul 06, 2021 8:36:58 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:36:58 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml has finished in 12 ms
+Jul 06, 2021 8:36:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 06, 2021 8:36:58 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 418 ms
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples
+Jul 06, 2021 8:36:59 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 8:36:59 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples has finished in 154 ms
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager has finished in 57 ms
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs has finished in 43 ms
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager has finished in 42 ms
+Jul 06, 2021 8:36:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 8:36:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 8:36:59 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 841 ms
+Jul 06, 2021 9:20:59 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 9:20:59 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 9:20:59 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 9:21:39 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 9:21:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 9:21:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 9:22:09 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 9:22:09 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 9:22:09 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 9:22:29 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 9:22:29 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 9:22:29 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 9:22:39 AM org.apache.catalina.startup.HostConfig reload
+INFO: Reloading context []
+Jul 06, 2021 9:22:39 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 9:22:39 AM org.apache.catalina.core.StandardContext reload
+SEVERE: Exception starting Context with name []
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4033)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1524)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1497)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1695)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1546)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1556)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1524)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: The servlets named [HelloServlet] and [vn.evolus.training.servlet.HelloServlet] are both mapped to the url-pattern [/hello] which is not permitted
+	at org.apache.catalina.deploy.WebXml.addServletMapping(WebXml.java:293)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2428)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2103)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2064)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2057)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2057)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2057)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsFile(ContextConfig.java:2057)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1304)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:889)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:386)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5416)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 12 more
+
+Jul 06, 2021 9:22:40 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 9:35:10 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 9:35:10 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 9:35:10 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 06, 2021 9:35:10 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 9:35:10 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 9:35:10 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 9:35:10 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.5.7-200.fc31.x86_64
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc31.x86_64/jre
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_242-b08
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/logging.properties
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/endorsed
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/temp
+Jul 06, 2021 9:35:23 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 06, 2021 9:35:23 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 9:35:23 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 450 ms
+Jul 06, 2021 9:35:23 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 06, 2021 9:35:23 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+Jul 06, 2021 9:35:23 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 9:35:23 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/test.xml has finished in 82 ms
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+Jul 06, 2021 9:35:23 AM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /home/vananh/Training/Exercise/PatientManagement/webapp does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5145)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5330)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 9:35:23 AM org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5331)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/patientmanagement]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:677)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1912)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/patientmanagement.xml has finished in 10 ms
+Jul 06, 2021 9:35:23 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 06, 2021 9:35:23 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 376 ms
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples
+Jul 06, 2021 9:35:24 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 9:35:24 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples has finished in 191 ms
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager has finished in 59 ms
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs has finished in 40 ms
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager has finished in 43 ms
+Jul 06, 2021 9:35:24 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 9:35:24 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 9:35:24 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 850 ms
+Jul 06, 2021 9:44:14 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 9:44:14 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 10:26:34 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 10:26:34 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 10:30:34 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 10:30:35 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 10:35:45 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 10:35:45 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 10:46:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 10:46:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 11:13:05 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 11:13:05 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 11:18:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 11:18:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 12:06:25 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 12:06:25 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 12:07:15 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 12:07:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 12:08:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 12:08:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 12:08:46 PM org.apache.catalina.loader.WebappClassLoader modified
+INFO:     Additional JARs have been added : 'commons-dbcp-1.4.jar'
+Jul 06, 2021 12:08:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 12:08:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 12:08:56 PM org.apache.catalina.loader.WebappClassLoader modified
+INFO:     Additional JARs have been added
+Jul 06, 2021 12:08:56 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 12:08:56 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 12:09:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 12:09:16 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 06, 2021 12:09:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 12:09:36 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 12:09:36 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 12:17:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 12:17:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 06, 2021 12:17:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 1:45:07 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/patientmanagement]
+Jul 06, 2021 1:45:17 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/test]
+Jul 06, 2021 3:02:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:02:48 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 06, 2021 3:02:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 3:04:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 3:04:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 3:04:32 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 06, 2021 3:04:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 3:04:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 3:04:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 3:04:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.5.7-200.fc31.x86_64
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc31.x86_64/jre
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_242-b08
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/logging.properties
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/endorsed
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/temp
+Jul 06, 2021 3:04:55 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 06, 2021 3:04:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 3:04:55 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 662 ms
+Jul 06, 2021 3:04:55 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 06, 2021 3:04:55 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 06, 2021 3:04:55 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 06, 2021 3:04:55 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 679 ms
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples
+Jul 06, 2021 3:04:56 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 3:04:56 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples has finished in 214 ms
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager has finished in 75 ms
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs has finished in 52 ms
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager has finished in 56 ms
+Jul 06, 2021 3:04:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 3:04:56 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 3:04:56 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1155 ms
+Jul 06, 2021 3:07:56 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:07:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 3:08:27 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:08:27 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 3:10:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:10:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 3:14:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:14:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 3:16:17 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:16:17 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 3:18:47 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:18:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 3:19:08 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:19:08 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 3:19:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:19:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 3:52:28 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 3:52:28 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 06, 2021 3:52:28 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 4:03:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 4:03:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 4:30:38 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 4:30:39 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 4:30:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 4:30:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 4:31:19 PM org.apache.catalina.loader.WebappClassLoader modified
+SEVERE:     Resource '/WEB-INF/classes/vn/evolus/training/datasource/DatabaseConnection.class' is missing
+Jul 06, 2021 4:31:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 4:31:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 06, 2021 4:31:19 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more Filters failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 4:31:19 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [] startup failed due to previous errors
+Jul 06, 2021 4:31:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 4:32:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 4:32:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 4:32:02 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 06, 2021 4:32:02 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 4:32:02 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 4:32:02 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 4:32:02 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.5.7-200.fc31.x86_64
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc31.x86_64/jre
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_242-b08
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/logging.properties
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/endorsed
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/temp
+Jul 06, 2021 4:32:04 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 06, 2021 4:32:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 4:32:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 632 ms
+Jul 06, 2021 4:32:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 06, 2021 4:32:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 06, 2021 4:32:04 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 06, 2021 4:32:04 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 866 ms
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples
+Jul 06, 2021 4:32:05 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 4:32:05 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/examples has finished in 236 ms
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/manager has finished in 80 ms
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/docs has finished in 52 ms
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/apache-tomcat-7.0.62/webapps/host-manager has finished in 60 ms
+Jul 06, 2021 4:32:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 4:32:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 4:32:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1360 ms
+Jul 06, 2021 4:32:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 4:32:36 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 4:35:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Jul 06, 2021 4:35:46 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jul 06, 2021 4:35:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.5.7-200.fc31.x86_64
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc31.x86_64/jre
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_242-b08
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/endorsed
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62
+Jul 06, 2021 5:08:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/temp
+Jul 06, 2021 5:08:02 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 06, 2021 5:08:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 5:08:02 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:649)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:390)
+	at java.net.ServerSocket.<init>(ServerSocket.java:252)
+	at java.net.ServerSocket.<init>(ServerSocket.java:196)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Jul 06, 2021 5:08:02 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:649)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:390)
+	at java.net.ServerSocket.<init>(ServerSocket.java:252)
+	at java.net.ServerSocket.<init>(ServerSocket.java:196)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Jul 06, 2021 5:08:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 5:08:03 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:649)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:390)
+	at java.net.ServerSocket.<init>(ServerSocket.java:252)
+	at java.net.ServerSocket.<init>(ServerSocket.java:196)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Jul 06, 2021 5:08:03 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:638)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:280)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:454)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:649)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:390)
+	at java.net.ServerSocket.<init>(ServerSocket.java:252)
+	at java.net.ServerSocket.<init>(ServerSocket.java:196)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 412 ms
+Jul 06, 2021 5:08:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 06, 2021 5:08:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 06, 2021 5:08:03 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 474 ms
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/examples
+Jul 06, 2021 5:08:03 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 5:08:03 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/examples has finished in 136 ms
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/manager
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 57 ms
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/docs
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 40 ms
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 41 ms
+Jul 06, 2021 5:08:03 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 787 ms
+Jul 06, 2021 5:08:03 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:390)
+	at java.net.ServerSocket.<init>(ServerSocket.java:252)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:777)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:723)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:321)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+Jul 06, 2021 5:08:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 5:08:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 5:08:03 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 06, 2021 5:08:03 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 5:08:03 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 5:08:03 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 5:08:03 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.5.7-200.fc31.x86_64
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.fc31.x86_64/jre
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_242-b08
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/endorsed
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/temp
+Jul 06, 2021 5:09:00 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 06, 2021 5:09:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 5:09:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 451 ms
+Jul 06, 2021 5:09:00 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 06, 2021 5:09:00 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Jul 06, 2021 5:09:00 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 511 ms
+Jul 06, 2021 5:09:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/examples
+Jul 06, 2021 5:09:01 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jul 06, 2021 5:09:01 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/examples] startup failed due to previous errors
+Jul 06, 2021 5:09:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/examples has finished in 128 ms
+Jul 06, 2021 5:09:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/manager
+Jul 06, 2021 5:09:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 48 ms
+Jul 06, 2021 5:09:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/docs
+Jul 06, 2021 5:09:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 31 ms
+Jul 06, 2021 5:09:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Jul 06, 2021 5:09:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vananh/Training/Java/JavaEE/PatientManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 34 ms
+Jul 06, 2021 5:09:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 5:09:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 5:09:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 793 ms
+Jul 06, 2021 5:09:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 5:09:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 5:09:31 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jul 06, 2021 5:09:31 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 5:09:31 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jul 06, 2021 5:09:31 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Jul 06, 2021 5:09:31 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
