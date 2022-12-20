@@ -3,7 +3,6 @@
        <table width="1200" border="1">
             <thead>
                 <tr>
-                    <th width="50">ID</th>
                     <th width="300">Name</th>
                     <th width="200">Gender</th>
                     <th width="200">Phone Number</th>
@@ -17,7 +16,6 @@
             <tbody>
                 <c:forEach items="${customers}" var="customer">
                 <tr>
-                    <td>${customer.id}</td>
                     <td><c:out value="${customer.name}" /></td>
                     <td><c:out value="${customer.gender}" /></td>
                     <td><c:out value="${customer.phoneNumber}" /></td>
@@ -35,7 +33,7 @@
             </tbody>
        </table>
        <div class="pagination">
-	        <c:forEach begin="1" end="${(counter/pageSize)+(1-((counter/pageSize)%1))%1}" var="i">
-	          <a class="item" href="/customer/list?page=${i}">${i}</a>
+            <c:forEach begin="1" end="${((counter/pageSize)-(counter/pageSize)%1) + 1}" var="i">
+	          <a class="item" href="/customer/list?page=${i}${queryString}">${i}</a>
 	        </c:forEach>
        </div>

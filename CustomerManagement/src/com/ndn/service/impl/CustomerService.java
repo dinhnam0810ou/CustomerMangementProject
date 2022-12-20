@@ -1,10 +1,10 @@
 package com.ndn.service.impl;
 
-import java.sql.SQLException;
-import java.util.List;
+
 
 import com.ndn.datasource.CustomerDAO;
 import com.ndn.model.Customer;
+import com.ndn.model.PaginatedResult;
 import com.ndn.service.ICustomerService;
 
 public class CustomerService implements ICustomerService{
@@ -14,11 +14,6 @@ public class CustomerService implements ICustomerService{
     @Override
     public void addCustomer(Customer customer) {
         customerDAO.addCustomer(customer);
-    }
-
-    @Override
-    public List<Customer> getCustomers(int page) {
-        return customerDAO.getCustomers(page);
     }
 
     @Override
@@ -37,13 +32,10 @@ public class CustomerService implements ICustomerService{
     }
 
     @Override
-    public List<Customer> searchCustomers(String name, String gender, String phone, String membership_level) {
-        return customerDAO.searchCustomers(name, gender, phone, membership_level);
+    public PaginatedResult getCustomers(String name, String gender, String phone, String membershipLevel,
+            int pageIndex) {
+        return customerDAO.getCustomers(name, gender, phone, membershipLevel, pageIndex);
     }
 
-    @Override
-    public int countCustomer() {
-        return customerDAO.countCustomer();
-    }
 
 }

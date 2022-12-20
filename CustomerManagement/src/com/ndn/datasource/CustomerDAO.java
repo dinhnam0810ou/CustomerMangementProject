@@ -9,15 +9,70 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+import org.apache.commons.lang3.StringUtils;
+
 import com.ndn.enums.Gender;
+import com.ndn.enums.MembershipLevel;
 import com.ndn.model.Customer;
+import com.ndn.model.PaginatedResult;
+import com.ndn.utils.ValidationUtils;
 
 
 
 
 
 public class CustomerDAO {
-    public static final int PAGE_SIZE = 4;
+    public static final int PAGE_SIZE = 10;
+    
+    
+    public void deleteCustomerById(int id) {
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = DatabaseConnection.getConnection().prepareStatement("delete from customer where id = ?");
+            preparedStatement.setInt(1, id);
+            preparedStatement.execute();
+            
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            closeQuietly(preparedStatement);
+        }
+    }
+    
+    public Customer getCustomerById(int id) {   
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = DatabaseConnection.getConnection().prepareStatement("select * from customer where id = ?");
+            preparedStatement.setInt(1, id);
+            ResultSet rs = preparedStatement.executeQuery();
+            rs.next();
+            
+            int customerId = rs.getInt("id");
+            String name = rs.getString("name");
+            Gender gender = Gender.valueOf(rs.getString("gender"));
+            String phoneNumber = rs.getString("phone_number");
+            String address = rs.getString("address");
+            String email = rs.getString("email");
+            int point = rs.getInt("point");
+            
+            Customer customer = new Customer();
+            customer.setId(customerId);
+            customer.setName(name);
+            customer.setGender(gender);
+            customer.setPhoneNumber(phoneNumber);
+            customer.setAddress(address);
+            customer.setEmail(email);
+            customer.setPoint(point);
+            
+            return customer;
+            
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            closeQuietly(preparedStatement);
+        }
+    }
+    
     public void addCustomer(Customer customer) {
         Connection connection = DatabaseConnection.getConnection();
         PreparedStatement preparedStatement = null;
@@ -49,55 +104,6 @@ public class CustomerDAO {
         }
     }
     
-    public void deleteCustomerById(int id) {
-        PreparedStatement preparedStatement = null;
-        try {
-            preparedStatement = DatabaseConnection.getConnection().prepareStatement("delete from customer where id = ?");
-            preparedStatement.setInt(1, id);
-            preparedStatement.execute();
-            
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } finally {
-            closeQuietly(preparedStatement);
-        }
-    }
-    
-    public Customer getCustomerById(int id) {   
-        PreparedStatement preparedStatement = null;
-        try {
-            preparedStatement = DatabaseConnection.getConnection().prepareStatement("select * from customer where id = ?");
-            preparedStatement.setInt(1, id);
-            ResultSet rs = preparedStatement.executeQuery();
-            rs.next();
-            
-            int customer_id = rs.getInt("id");
-            String name = rs.getString("name");
-            Gender gender = Gender.valueOf(rs.getString("gender"));
-            String phone_number = rs.getString("phone_number");
-            String address = rs.getString("address");
-            String email = rs.getString("email");
-            int point = rs.getInt("point");
-            
-            Customer customer = new Customer();
-            customer.setId(customer_id);
-            customer.setName(name);
-            customer.setGender(gender);
-            customer.setPhoneNumber(phone_number);
-            customer.setAddress(address);
-            customer.setEmail(email);
-            customer.setPoint(point);
-            
-            return customer;
-            
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } finally {
-            closeQuietly(preparedStatement);
-
-        }
-    }
-    
     public void updateCustomer(Customer customer) {
         PreparedStatement preparedStatement = null;
         try {
@@ -121,135 +127,102 @@ public class CustomerDAO {
 
         }
     }
-    
-    public List<Customer> getCustomers(int page) {
-        int offset = (page - 1) * PAGE_SIZE;
-        List<Customer> customers = new ArrayList<>();
-        PreparedStatement preparedStatement = null;
-        try {
-            preparedStatement = DatabaseConnection.getConnection().prepareStatement("select * from customer order by id limit ? offset ?");
-            preparedStatement.setInt(1, PAGE_SIZE);
-            preparedStatement.setInt(2, offset);
-            ResultSet rs = preparedStatement.executeQuery();      
-            while(rs.next()) {
-                int id = rs.getInt("id");
-                String name = rs.getString("name");
-                Gender gender = Gender.valueOf(rs.getString("gender"));
-                String phone_number = rs.getString("phone_number");
-                String address = rs.getString("address");
-                String email = rs.getString("email");
-                int point = rs.getInt("point");
-                
-                Customer customer = new Customer();
-                customer.setId(id);
-                customer.setName(name);
-                customer.setGender(gender);
-                customer.setPhoneNumber(phone_number);
-                customer.setAddress(address);
-                customer.setEmail(email);
-                customer.setPoint(point);
-                
-                customers.add(customer);
-            }
-            
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } finally {
-            closeQuietly(preparedStatement);
-
-        }
-        return customers;
-    }
-    
-    public List<Customer> searchCustomers(String name, String gender, String phone_number, String membership_level) {
-        int index = 0;
-        List<Customer> customers = new ArrayList<>();
-        PreparedStatement preparedStatement = null;
-        if(name.isEmpty() && gender.isEmpty() && phone_number.isEmpty() && membership_level.isEmpty()) {
-            return getCustomers(1);
-        }
-        try {
-            String sql ="select * from customer where ";
-            String subSql = "";
-            if (name != null && !name.isEmpty()) {
-                if (!subSql.isEmpty()) subSql += "and ";
-                subSql += "name like ? "; 
-            }
-            if (gender != null && !gender.isEmpty()) {
-                if (!subSql.isEmpty()) subSql += "and ";
-                subSql += "gender like ? ";
-            }
-            if (phone_number != null && !phone_number.isEmpty()) {
-                if (!subSql.isEmpty()) subSql += "and ";
-                subSql += "phone_number like ? ";
-            }
-            if (membership_level != null && !membership_level.isEmpty()) {
-                if (!subSql.isEmpty()) subSql += "and ";
-                if (membership_level.equals("Silver")) subSql += "point < 100 ";
-                if (membership_level.equals("Gold")) subSql += "point >= 100 and point <250 ";
-                if (membership_level.equals("Platinum")) subSql += "point >= 250 ";
-            }
-           
-            sql += subSql + " order by id limit ? offset ?";
-            System.out.println(sql);
-            preparedStatement = DatabaseConnection.getConnection().prepareStatement(sql);
-            if(name != null && !name.isEmpty()) {
-                index ++;
-                preparedStatement.setString(index, "%"+name+"%");
-            }
-            if(gender != null && !gender.isEmpty()) {
-                index ++;
-                preparedStatement.setString(index, "%"+gender+"%");
-            }
-            if(phone_number != null && !phone_number.isEmpty()) {
-                index ++;
-                preparedStatement.setString(index, "%"+phone_number+"%");
-            }
-
-            
-            ResultSet rs = preparedStatement.executeQuery();
-            while(rs.next()) {
-                int customer_id = rs.getInt("id");
-                String customer_name = rs.getString("name");
-                String customer_gender = rs.getString("gender");   
-                String customer_phone_number = rs.getString("phone_number");
-                String customer_address = rs.getString("address");
-                String customer_email = rs.getString("email");
-                int customer_point = rs.getInt("point");
-                
-                Customer customer = new Customer();
-                customer.setId(customer_id);
-                customer.setName(customer_name);
-                customer.setGender(Gender.valueOf(customer_gender));
-                customer.setPhoneNumber(customer_phone_number);
-                customer.setAddress(customer_address);
-                customer.setEmail(customer_email);
-                customer.setPoint(customer_point);
-                
-                customers.add(customer);
-            }
-            
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } finally {
-            closeQuietly(preparedStatement);
-        }
-        return customers;
-    }
-    
-    public int countCustomer() {
+    public PaginatedResult getCustomers(String name, String gender, String phoneNumber, String membershipLevel, int pageIndex) {
+        PaginatedResult paginatedResult = new PaginatedResult();
         int count = 0;
-        Statement statement = null;
-        String sql = "select count(*) from customer";
+        int offset = pageIndex  * PAGE_SIZE;
+        String selectSqlString = "select * from customer";        
+        String countSqlString = "select count(*) from customer"; 
+        String subSql = "";
+        List<Customer> customers = new ArrayList<>();
+        PreparedStatement preparedStatementSelect = null;
+        PreparedStatement preparedStatementCount = null; 
+        Connection connection = null;
+        
+        List<String> conditions = new ArrayList<>();
+        List<Object> values = new ArrayList<>();
+        if (ValidationUtils.isNotEmpty(membershipLevel)) {
+            if (membershipLevel.equals(MembershipLevel.Silver.toString())) {
+                conditions.add("point < ?");
+                values.add(MembershipLevel.Gold.getPoint());
+            }
+            if (membershipLevel.equals(MembershipLevel.Gold.toString())) {
+                conditions.add("point >= ? and point < ?");
+                values.add(MembershipLevel.Gold.getPoint());
+                values.add(MembershipLevel.Platinum.getPoint());
+            }
+            if (membershipLevel.equals(MembershipLevel.Platinum.toString())) {
+                conditions.add("point >= ?");
+                values.add(MembershipLevel.Platinum.getPoint());
+            }
+        }
+        if (ValidationUtils.isNotEmpty(name)) {
+            conditions.add("name ilike ?");
+            values.add("%"+name+"%");
+        }
+        if (ValidationUtils.isNotEmpty(gender)) {
+            conditions.add("gender = ?");
+            values.add(gender);
+        }
+        if (ValidationUtils.isNotEmpty(phoneNumber)) {
+            conditions.add("phone_number ilike ?");
+            values.add("%"+phoneNumber+"%");
+        }
+        
+        connection = DatabaseConnection.getConnection();
         try {
-            statement = DatabaseConnection.getConnection().createStatement();
-            ResultSet resultSet = statement.executeQuery(sql);
-            resultSet.next();
-            count =resultSet.getInt(1);
+            if (!conditions.isEmpty()) {
+                subSql += " where " + StringUtils.join(conditions, " and ");
+            }
+            selectSqlString += subSql + " offset ? limit ?";
+            countSqlString += subSql;
+            preparedStatementSelect = connection.prepareStatement(selectSqlString);
+            preparedStatementCount = connection.prepareStatement(countSqlString);
+            int index = 0;
+            if (!values.isEmpty()) {
+                for (Object value : values) {
+                    ++ index;
+                    preparedStatementSelect.setObject(index, value);
+                    preparedStatementCount.setObject(index, value);
+                }
+            }
+            
+            preparedStatementSelect.setInt(++ index, offset);
+            preparedStatementSelect.setInt(++ index, PAGE_SIZE);
+            ResultSet selectResultSet = preparedStatementSelect.executeQuery();
+            while(selectResultSet.next()) {
+                int customerId = selectResultSet.getInt("id");
+                String customerName = selectResultSet.getString("name");
+                String customerGender = selectResultSet.getString("gender");   
+                String customerPhoneNumber = selectResultSet.getString("phone_number");
+                String customerAddress = selectResultSet.getString("address");
+                String customerEmail = selectResultSet.getString("email");
+                int customerPoint = selectResultSet.getInt("point");
+                
+                Customer customer = new Customer();
+                customer.setId(customerId);
+                customer.setName(customerName);
+                customer.setGender(Gender.valueOf(customerGender));
+                customer.setPhoneNumber(customerPhoneNumber);
+                customer.setAddress(customerAddress);
+                customer.setEmail(customerEmail);
+                customer.setPoint(customerPoint);
+                
+                customers.add(customer);
+            }
+            ResultSet countResultSet = preparedStatementCount.executeQuery();
+            countResultSet.next();
+            count = countResultSet.getInt(1);
+            
+            paginatedResult.setCustomers(customers);
+            paginatedResult.setCount(count);
         } catch (SQLException e) {
-            e.printStackTrace();
-        }      
-        return count;
+            throw new RuntimeException(e);
+        } finally {
+            closeQuietly(preparedStatementSelect);
+            closeQuietly(preparedStatementCount);
+        }
+        return paginatedResult;
     }
 
     private void closeQuietly(Statement statement) {
@@ -259,6 +232,5 @@ public class CustomerDAO {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-    }
-    
+    }    
 }

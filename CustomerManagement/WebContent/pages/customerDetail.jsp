@@ -18,8 +18,8 @@
             <div>Address: <b>${customer.address}</b></div>
             <div>Email: <b>${customer.email}</b></div>
             <div>Point: <b>${customer.point}</b></div>
-            <div>Membership Level: <b>${membership_level}</b></div>
-            <div>Ticket Free: <b>${ ticket_free}</b></div>  
+            <div>Membership Level: <b>${membershipLevel}</b></div>
+            <div>Ticket Free: <b>${ticketFree}</b></div>  
         </div>   
        <a href="/customer/list">View Customer List</a>
     </body>

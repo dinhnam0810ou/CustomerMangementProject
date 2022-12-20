@@ -9,22 +9,33 @@
         <title>Customer</title>
         <style type="text/css">
         #addCustomerForm {
-            padding-top: 4px;
+            padding-top: 4px;  
+                
+        }
+        .form {
+            display: flex;
+            flex-direction:row;
+            margin-bottom: 5px;
         }
         .Input {
            margin-bottom: 5px;
+           width: 300px;
         }
         .LabelWrapper {
             width:150px;
         }
         .SearchInput {
-            width: 300px;
+            width: 220px;
             margin-bottom: 5px;
+            margin-right: 10px;
+        }
+        .SubjectLabel { 
+            width: 200px;
         }
         .pagination a {
           color: black;
           float: left;
-          padding: 8px 16px;
+          padding: 3px 6px;
           text-decoration: none;
           transition: background-color .3s;
         }
@@ -33,14 +44,19 @@
           color: red;
           border:1px solid black;
         }
+        .Combobox {
+          width: 100px;
+          margin-right: 10px;
+        }
+        .ErrorLabel {
+           color: red;
+        }
         </style>
     </head>
     <body>
        <%@include file="header.jsp" %>
        <tag:searchBar></tag:searchBar>
-       <tag:customerList></tag:customerList>
-       <br><br>
-       <h3>Add Customer</h3>
-       <tag:addCustomerForm></tag:addCustomerForm>
+       <button><a href="/customer/save">ADD CUSTOMER</a></button>     
+       <tag:customerList></tag:customerList>   
     </body>
 </html>

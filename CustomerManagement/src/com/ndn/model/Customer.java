@@ -2,6 +2,7 @@ package com.ndn.model;
 
 import com.ndn.enums.Gender;
 import com.ndn.enums.MembershipLevel;
+import com.ndn.utils.ValidationUtils;
 
 public class Customer {
     private int id;
@@ -16,7 +17,7 @@ public class Customer {
     public Customer() {}
     public Customer(String name, Gender gender, String phoneNumber,
             String address, String email) {
-        if( name.equals("") || gender.equals("") || phoneNumber.equals("") ) {
+        if( ValidationUtils.isEmpty(name) || ValidationUtils.isEmpty(gender.toString()) || ValidationUtils.isEmpty(phoneNumber) ) {
             System.out.println("Customer data can not empty");
         }
         else {
@@ -70,8 +71,8 @@ public class Customer {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(String phone_number) {
-        this.phoneNumber = phone_number;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getAddress() {

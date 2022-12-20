@@ -1,22 +1,25 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <h3>Search</h3>
-<form id="searchBar" method="get" action="/customer/list">
+<form id="searchBar" method="get" action="/customer/list" accept-charset="UTF-8">
           <input class="SearchInput" type="text" id="name" name="kw_name" placeholder="Enter customer name to search"/>
-          <br />
-          <select class="SearchInput" name="kw_gender" id="gender">
-              <option value="">Trong</option>
-			  <option value="Nam">Nam</option>
-			  <option value="Nu">Nu</option>
-			  <option value="Khac">Khac</option>
+
+          <select  class="Combobox" name="kw_gender" id="gender">
+              <option value="">All gender</option>
+              <c:forEach items="${genders}" var="gender">
+                    <option value="${gender}">${gender}</option>
+              </c:forEach>
 		  </select>
-          <br />
+
           <input class="SearchInput" type="text" id="phone" name="kw_phone" placeholder="Enter customer phone to search"/>
-          <br /> 
-          <select class="SearchInput" name="kw_membership_level" id="membershipLevel">
-              <option value="">Trong</option>
-              <option value="Silver">Silver</option>
-              <option value="Gold">Gold</option>
-              <option value="Platinum">Platinum</option>     
+         
+          <select class="Combobox" name="kw_membership_level" id="membershipLevel">
+              <option value="">All membership level</option>
+              <c:forEach items="${membershipLevels}" var="membershipLevel">
+                    <option value="${membershipLevel}">${membershipLevel}</option>
+              </c:forEach>     
           </select>
 		  <br /> 
           <input type="submit" value="SEARCH CUSTOMER">
    </form>
+   <br>
+   <br>
