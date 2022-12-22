@@ -223,7 +223,7 @@ public class CustomerDAO {
         PreparedStatement preparedStatement = null;
         List<Customer> customers = new ArrayList<>();
         try {
-            preparedStatement = DatabaseConnection.getConnection().prepareStatement("select * from customer");
+            preparedStatement = DatabaseConnection.getConnection().prepareStatement("select * from customer order by name");
             ResultSet rs = preparedStatement.executeQuery();
             while (rs.next()) {
                 int customerId = rs.getInt("id");
