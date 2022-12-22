@@ -32,14 +32,14 @@
         .SubjectLabel { 
             width: 200px;
         }
-        .pagination a {
+        .Pagination a {
           color: black;
           float: left;
           padding: 3px 6px;
           text-decoration: none;
           transition: background-color .3s;
         }
-        .pagination a.item {
+        .Pagination a.item {
           background-color: white;
           color: red;
           border:1px solid black;

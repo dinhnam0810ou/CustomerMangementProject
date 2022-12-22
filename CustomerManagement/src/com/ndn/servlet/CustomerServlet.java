@@ -10,17 +10,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.ndn.core.ServiceFactory;
-import com.ndn.datasource.CustomerDAO;
 import com.ndn.enums.Gender;
 import com.ndn.enums.MembershipLevel;
 import com.ndn.model.Customer;
 import com.ndn.model.PaginatedResult;
 import com.ndn.service.ICustomerService;
+import com.ndn.utils.PageUtils;
 import com.ndn.utils.ValidationUtils;
-
-
-
-
 
 @WebServlet(urlPatterns = "/customer/*")
 public class CustomerServlet extends HttpServlet{
@@ -44,13 +40,13 @@ public class CustomerServlet extends HttpServlet{
                 queryString ="&kw_name=" + name + "&kw_gender=" 
                     + gender + "&kw_phone=" + phoneNumber + "&kw_membership_level=" + membershipLevel;
             }
-            PaginatedResult paginatedResult = customerService.getCustomers(name, gender, phoneNumber, membershipLevel, pageIndex);
-            req.setAttribute("customers", paginatedResult.getCustomers());
+            PaginatedResult<Customer> paginatedResult = customerService.getCustomers(name, gender, phoneNumber, membershipLevel, pageIndex);
+            req.setAttribute("customers", paginatedResult.getItems());
             req.setAttribute("counter", paginatedResult.getCount());        
             req.setAttribute("queryString", queryString);
-            req.setAttribute("pageSize", CustomerDAO.PAGE_SIZE);
-            req.setAttribute("genders", Gender.getGenders());
-            req.setAttribute("membershipLevels", MembershipLevel.getMembershipLevels());
+            req.setAttribute("pageSize", PageUtils.PAGE_SIZE);
+            req.setAttribute("genders", Gender.values());
+            req.setAttribute("membershipLevels", MembershipLevel.values());
             getServletContext().getRequestDispatcher("/pages/customerList.jsp").forward(req, resp);  
             
         } else if (requestURI.contains("/customer/delete")) {
@@ -61,15 +57,16 @@ public class CustomerServlet extends HttpServlet{
                 
         } else if (requestURI.contains("/customer/view")) {
             int id = Integer.parseInt(req.getParameter("id"));
-            req.setAttribute("customer", customerService.getCustomerById(id));
-            req.setAttribute("membershipLevel", customerService.getCustomerById(id).getMembershipLevel());
-            req.setAttribute("ticketFree", customerService.getCustomerById(id).getTicketFree());
+            Customer customer = customerService.getCustomerById(id);
+            req.setAttribute("customer", customer);
+            req.setAttribute("membershipLevel", customer.getMembershipLevel());
+            req.setAttribute("ticketFree", customer.getTicketFree());
             getServletContext().getRequestDispatcher("/pages/customerDetail.jsp").forward(req, resp);     
         
         } else if (requestURI.contains("/customer/edit")) {
             int id = Integer.parseInt(req.getParameter("id"));
             req.setAttribute("customer", customerService.getCustomerById(id));  
-            req.setAttribute("genders", Gender.getGenders());
+            req.setAttribute("genders", Gender.values());
             getServletContext().getRequestDispatcher("/pages/customerSave.jsp").forward(req, resp);
         }
     }

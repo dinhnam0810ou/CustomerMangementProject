@@ -13,7 +13,8 @@ public class Customer {
     private String email;
     private int point;
     private MembershipLevel membershipLevel;
-    
+    private int ticketFree;
+    private int useTicketFree;
     public Customer() {}
     public Customer(String name, Gender gender, String phoneNumber,
             String address, String email) {
@@ -40,7 +41,8 @@ public class Customer {
     
     public int getTicketFree() {
         MembershipLevel level = getMembershipLevel();
-        return level.getTicketFree();
+        ticketFree = level.getTicketFree() - useTicketFree;
+        return ticketFree;
     }
 
     public int getId() {
@@ -98,5 +100,14 @@ public class Customer {
     public void setPoint(int point) {
         this.point = point;
     }
-  
+    @Override
+    public String toString() {
+        return name;
+    }
+    public int getUseFreeTicket() {
+        return useTicketFree;
+    }
+    public void setUseFreeTicket(int numberOfUse) {
+        this.useTicketFree = numberOfUse;
+    }
 }

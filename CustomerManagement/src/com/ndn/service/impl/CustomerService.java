@@ -2,6 +2,8 @@ package com.ndn.service.impl;
 
 
 
+import java.util.List;
+
 import com.ndn.datasource.CustomerDAO;
 import com.ndn.model.Customer;
 import com.ndn.model.PaginatedResult;
@@ -32,10 +34,13 @@ public class CustomerService implements ICustomerService{
     }
 
     @Override
-    public PaginatedResult getCustomers(String name, String gender, String phone, String membershipLevel,
+    public PaginatedResult<Customer> getCustomers(String name, String gender, String phone, String membershipLevel,
             int pageIndex) {
         return customerDAO.getCustomers(name, gender, phone, membershipLevel, pageIndex);
     }
 
-
+    @Override
+    public List<Customer> getCustomers() {
+        return customerDAO.getCustomers();
+    }
 }

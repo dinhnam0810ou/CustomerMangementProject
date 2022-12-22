@@ -2,9 +2,9 @@ package com.ndn.model;
 
 import java.util.List;
 
-public class PaginatedResult {
+public class PaginatedResult<T> {
     private int count;
-    private List<Customer> customers;
+    private List<T> items;
     
     public int getCount() {
         return count;
@@ -12,11 +12,10 @@ public class PaginatedResult {
     public void setCount(int count) {
         this.count = count;
     }
-    public List<Customer> getCustomers() {
-        return customers;
+    public List<T> getItems() {
+        return items;
     }
-    public void setCustomers(List<Customer> customers) {
-        this.customers = customers;
+    public void setItems(List<T> items) {
+        this.items = items;
     }
-    
 }

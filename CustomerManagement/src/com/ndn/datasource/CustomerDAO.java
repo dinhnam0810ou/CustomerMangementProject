@@ -15,15 +15,10 @@ import com.ndn.enums.Gender;
 import com.ndn.enums.MembershipLevel;
 import com.ndn.model.Customer;
 import com.ndn.model.PaginatedResult;
+import com.ndn.utils.PageUtils;
 import com.ndn.utils.ValidationUtils;
 
-
-
-
-
 public class CustomerDAO {
-    public static final int PAGE_SIZE = 10;
-    
     
     public void deleteCustomerById(int id) {
         PreparedStatement preparedStatement = null;
@@ -54,7 +49,7 @@ public class CustomerDAO {
             String address = rs.getString("address");
             String email = rs.getString("email");
             int point = rs.getInt("point");
-            
+            int useFreeTicket = rs.getInt("useticketfree");
             Customer customer = new Customer();
             customer.setId(customerId);
             customer.setName(name);
@@ -63,11 +58,11 @@ public class CustomerDAO {
             customer.setAddress(address);
             customer.setEmail(email);
             customer.setPoint(point);
-            
+            customer.setUseFreeTicket(useFreeTicket);
             return customer;
             
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            return null;
         } finally {
             closeQuietly(preparedStatement);
         }
@@ -109,14 +104,15 @@ public class CustomerDAO {
         try {
             preparedStatement = DatabaseConnection.getConnection().
                     prepareStatement("update customer set name = ?, gender = ?, phone_number = ?,"
-                            + "address = ?, email = ?, point = ? where id = ?");
+                            + "address = ?, email = ?, point = ?, useticketfree = ? where id = ?");
             preparedStatement.setString(1, customer.getName());
             preparedStatement.setString(2, customer.getGender().toString());
             preparedStatement.setString(3, customer.getPhoneNumber());
             preparedStatement.setString(4, customer.getAddress());
             preparedStatement.setString(5, customer.getEmail());
             preparedStatement.setInt(6, customer.getPoint());
-            preparedStatement.setInt(7, customer.getId());
+            preparedStatement.setInt(7, customer.getUseFreeTicket());
+            preparedStatement.setInt(8, customer.getId());
             
             preparedStatement.executeUpdate();
             
@@ -124,13 +120,12 @@ public class CustomerDAO {
             throw new RuntimeException(e);
         } finally {
             closeQuietly(preparedStatement);
-
         }
     }
-    public PaginatedResult getCustomers(String name, String gender, String phoneNumber, String membershipLevel, int pageIndex) {
-        PaginatedResult paginatedResult = new PaginatedResult();
+    public PaginatedResult<Customer> getCustomers(String name, String gender, String phoneNumber, String membershipLevel, int pageIndex) {
+        PaginatedResult<Customer> paginatedResult = new PaginatedResult<>();
         int count = 0;
-        int offset = pageIndex  * PAGE_SIZE;
+        int offset = PageUtils.caculateOffset(pageIndex);
         String selectSqlString = "select * from customer";        
         String countSqlString = "select count(*) from customer"; 
         String subSql = "";
@@ -158,7 +153,7 @@ public class CustomerDAO {
         }
         if (ValidationUtils.isNotEmpty(name)) {
             conditions.add("name ilike ?");
-            values.add("%"+name+"%");
+            values.add("%" + name + "%");
         }
         if (ValidationUtils.isNotEmpty(gender)) {
             conditions.add("gender = ?");
@@ -166,7 +161,7 @@ public class CustomerDAO {
         }
         if (ValidationUtils.isNotEmpty(phoneNumber)) {
             conditions.add("phone_number ilike ?");
-            values.add("%"+phoneNumber+"%");
+            values.add("%" + phoneNumber + "%");
         }
         
         connection = DatabaseConnection.getConnection();
@@ -188,7 +183,7 @@ public class CustomerDAO {
             }
             
             preparedStatementSelect.setInt(++ index, offset);
-            preparedStatementSelect.setInt(++ index, PAGE_SIZE);
+            preparedStatementSelect.setInt(++ index, PageUtils.PAGE_SIZE);
             ResultSet selectResultSet = preparedStatementSelect.executeQuery();
             while(selectResultSet.next()) {
                 int customerId = selectResultSet.getInt("id");
@@ -198,7 +193,7 @@ public class CustomerDAO {
                 String customerAddress = selectResultSet.getString("address");
                 String customerEmail = selectResultSet.getString("email");
                 int customerPoint = selectResultSet.getInt("point");
-                
+                int useFreeTicket = selectResultSet.getInt("useticketfree");
                 Customer customer = new Customer();
                 customer.setId(customerId);
                 customer.setName(customerName);
@@ -207,14 +202,14 @@ public class CustomerDAO {
                 customer.setAddress(customerAddress);
                 customer.setEmail(customerEmail);
                 customer.setPoint(customerPoint);
-                
+                customer.setUseFreeTicket(useFreeTicket);
                 customers.add(customer);
             }
             ResultSet countResultSet = preparedStatementCount.executeQuery();
             countResultSet.next();
             count = countResultSet.getInt(1);
             
-            paginatedResult.setCustomers(customers);
+            paginatedResult.setItems(customers);
             paginatedResult.setCount(count);
         } catch (SQLException e) {
             throw new RuntimeException(e);
@@ -224,7 +219,39 @@ public class CustomerDAO {
         }
         return paginatedResult;
     }
-
+    public List<Customer> getCustomers() {
+        PreparedStatement preparedStatement = null;
+        List<Customer> customers = new ArrayList<>();
+        try {
+            preparedStatement = DatabaseConnection.getConnection().prepareStatement("select * from customer");
+            ResultSet rs = preparedStatement.executeQuery();
+            while (rs.next()) {
+                int customerId = rs.getInt("id");
+                String name = rs.getString("name");
+                Gender gender = Gender.valueOf(rs.getString("gender"));
+                String phoneNumber = rs.getString("phone_number");
+                String address = rs.getString("address");
+                String email = rs.getString("email");
+                int point = rs.getInt("point");
+                int useFreeTicket = rs.getInt("useticketfree");
+                Customer customer = new Customer();
+                customer.setId(customerId);
+                customer.setName(name);
+                customer.setGender(gender);
+                customer.setPhoneNumber(phoneNumber);
+                customer.setAddress(address);
+                customer.setEmail(email);
+                customer.setPoint(point);
+                customer.setUseFreeTicket(useFreeTicket);
+                customers.add(customer);
+            }
+            return customers;
+        } catch (SQLException e) {
+            return null;
+        } finally {
+            closeQuietly(preparedStatement);
+        }
+    }
     private void closeQuietly(Statement statement) {
         if (statement != null)
             try {

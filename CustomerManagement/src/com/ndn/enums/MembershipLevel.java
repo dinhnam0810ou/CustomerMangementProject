@@ -1,7 +1,6 @@
 package com.ndn.enums;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 public enum MembershipLevel {
     Silver(0, 0), Gold(2, 100), Platinum(5, 250);
@@ -23,11 +22,5 @@ public enum MembershipLevel {
     public int getPoint() {
         return point;
     }
-    public static List<MembershipLevel> getMembershipLevels() {
-        List<MembershipLevel> membershipLevels = new ArrayList<>();
-        membershipLevels.add(Silver);
-        membershipLevels.add(Gold);
-        membershipLevels.add(Platinum);
-        return membershipLevels;
-    }
+  
 }

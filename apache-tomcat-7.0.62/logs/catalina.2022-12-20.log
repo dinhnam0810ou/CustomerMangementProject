@@ -84,3 +84,2125 @@ Dec 20, 2022 9:33:30 AM org.apache.coyote.AbstractProtocol start
 INFO: Starting ProtocolHandler ["ajp-bio-8009"]
 Dec 20, 2022 9:33:30 AM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 1702 ms
+Dec 20, 2022 9:44:25 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 9:44:25 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 9:44:25 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 9:44:25 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 9:44:25 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 9:44:25 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 9:44:25 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 9:44:25 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:30:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 10:30:55 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 10:30:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:30:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:30:56 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1544 ms
+Dec 20, 2022 10:30:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 10:30:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 10:30:56 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 10:30:56 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 10:30:57 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 1,037 ms
+Dec 20, 2022 10:30:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 10:30:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 241 ms
+Dec 20, 2022 10:30:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 10:30:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 516 ms
+Dec 20, 2022 10:30:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 10:30:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 451 ms
+Dec 20, 2022 10:30:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:30:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:30:59 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2423 ms
+Dec 20, 2022 10:31:02 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 10:35:08 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:35:08 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:35:09 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 10:35:09 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 10:35:09 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:35:09 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:35:09 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:35:09 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 10:35:11 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 10:35:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:35:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 512 ms
+Dec 20, 2022 10:35:11 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 10:35:11 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 10:35:11 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 541 ms
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 61 ms
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 68 ms
+Dec 20, 2022 10:35:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 10:35:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 69 ms
+Dec 20, 2022 10:35:12 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:35:12 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:35:12 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 789 ms
+Dec 20, 2022 10:37:19 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 10:48:17 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:48:17 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:48:17 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 10:48:18 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 10:48:18 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:48:18 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:48:18 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:48:18 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 10:48:20 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 10:48:20 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:48:20 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 670 ms
+Dec 20, 2022 10:48:20 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 10:48:20 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 10:48:20 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 10:48:20 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 10:48:21 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 656 ms
+Dec 20, 2022 10:48:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 10:48:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 52 ms
+Dec 20, 2022 10:48:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 10:48:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 58 ms
+Dec 20, 2022 10:48:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 10:48:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 55 ms
+Dec 20, 2022 10:48:21 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:48:21 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:48:21 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 883 ms
+Dec 20, 2022 10:50:14 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:50:14 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:50:14 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 10:50:14 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:50:14 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 10:50:14 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 10:50:14 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 11:45:56 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 11:45:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:45:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 574 ms
+Dec 20, 2022 11:45:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 11:45:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 11:45:56 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 633 ms
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 77 ms
+Dec 20, 2022 11:45:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 11:45:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 71 ms
+Dec 20, 2022 11:45:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 11:45:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 65 ms
+Dec 20, 2022 11:45:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:45:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:45:57 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 900 ms
+Dec 20, 2022 11:49:11 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:11 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:12 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 11:49:12 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 11:49:12 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:12 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:12 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:12 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 11:49:13 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 11:49:13 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:13 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 573 ms
+Dec 20, 2022 11:49:13 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 11:49:13 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 11:49:13 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 11:49:13 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 11:49:14 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 677 ms
+Dec 20, 2022 11:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 11:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 60 ms
+Dec 20, 2022 11:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 11:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 71 ms
+Dec 20, 2022 11:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 11:49:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 65 ms
+Dec 20, 2022 11:49:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:14 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 928 ms
+Dec 20, 2022 11:49:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:31 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 11:49:31 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 11:49:31 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:31 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:31 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:31 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 11:49:33 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 11:49:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 514 ms
+Dec 20, 2022 11:49:33 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 11:49:33 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 11:49:33 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 11:49:33 AM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 11:49:34 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 598 ms
+Dec 20, 2022 11:49:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 11:49:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 52 ms
+Dec 20, 2022 11:49:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 11:49:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 60 ms
+Dec 20, 2022 11:49:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 11:49:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 59 ms
+Dec 20, 2022 11:49:34 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 11:49:34 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 11:49:34 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 820 ms
+Dec 20, 2022 11:59:34 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 11:59:34 AM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 11:59:35 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 12:39:57 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 12:39:57 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 12:39:57 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 12:39:57 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 12:39:57 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 12:39:57 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 12:39:57 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 1:58:50 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 1:58:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 1:58:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 913 ms
+Dec 20, 2022 1:58:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 1:58:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 1:58:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 1:58:50 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 1:58:51 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 1,133 ms
+Dec 20, 2022 1:58:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 1:58:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 82 ms
+Dec 20, 2022 1:58:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 1:58:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 81 ms
+Dec 20, 2022 1:58:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 1:58:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 127 ms
+Dec 20, 2022 1:58:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 1:58:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 1:58:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1531 ms
+Dec 20, 2022 1:59:32 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 2:03:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:03:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:03:15 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 2:03:15 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 2:03:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:03:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:03:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:03:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 2:03:17 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 2:03:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:03:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 656 ms
+Dec 20, 2022 2:03:17 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 2:03:17 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 2:03:17 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 2:03:17 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 2:03:18 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 667 ms
+Dec 20, 2022 2:03:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 2:03:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 61 ms
+Dec 20, 2022 2:03:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 2:03:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 61 ms
+Dec 20, 2022 2:03:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 2:03:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 60 ms
+Dec 20, 2022 2:03:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:03:18 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:03:18 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 914 ms
+Dec 20, 2022 2:03:20 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 2:12:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:12:14 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:12:14 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 2:12:14 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 2:12:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:12:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:12:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:12:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:19:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 2:19:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 2:19:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:19:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:19:26 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1043 ms
+Dec 20, 2022 2:19:26 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 2:19:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 2:19:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 2:19:26 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 2:19:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 1,060 ms
+Dec 20, 2022 2:19:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 2:19:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 89 ms
+Dec 20, 2022 2:19:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 2:19:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 106 ms
+Dec 20, 2022 2:19:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 2:19:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 126 ms
+Dec 20, 2022 2:19:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:19:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:19:27 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1484 ms
+Dec 20, 2022 2:20:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:20:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:20:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 2:20:37 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 2:20:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:20:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:20:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:20:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 2:20:39 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 2:20:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:20:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 650 ms
+Dec 20, 2022 2:20:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 2:20:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 2:20:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 2:20:39 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 2:20:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 632 ms
+Dec 20, 2022 2:20:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 2:20:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 66 ms
+Dec 20, 2022 2:20:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 2:20:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 65 ms
+Dec 20, 2022 2:20:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 2:20:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 65 ms
+Dec 20, 2022 2:20:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:20:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:20:40 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 887 ms
+Dec 20, 2022 2:23:58 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:23:58 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:23:58 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 2:23:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 2:23:58 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:23:58 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:23:58 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:23:58 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 2:30:20 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 2:30:20 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:30:20 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 957 ms
+Dec 20, 2022 2:30:20 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 2:30:20 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 2:30:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 2:30:20 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 2:30:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 1,271 ms
+Dec 20, 2022 2:30:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 2:30:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 137 ms
+Dec 20, 2022 2:30:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 2:30:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 82 ms
+Dec 20, 2022 2:30:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 2:30:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 79 ms
+Dec 20, 2022 2:30:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 2:30:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 2:30:22 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1680 ms
+Dec 20, 2022 2:41:02 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 2:41:02 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 2:41:02 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 2:43:52 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 2:43:52 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 2:46:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 2:46:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 3:10:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 3:10:43 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 3:10:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 3:29:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 3:29:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 3:30:48 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:30:48 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:30:48 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 3:30:48 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:30:48 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:30:48 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:30:48 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:30:51 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 3:30:51 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 3:30:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:30:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:30:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 764 ms
+Dec 20, 2022 3:30:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 3:30:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 3:30:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 3:30:52 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 3:30:53 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 839 ms
+Dec 20, 2022 3:30:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 3:30:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 122 ms
+Dec 20, 2022 3:30:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 3:30:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 69 ms
+Dec 20, 2022 3:30:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 3:30:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 65 ms
+Dec 20, 2022 3:30:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:30:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:30:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1201 ms
+Dec 20, 2022 3:31:02 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 3:32:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:32:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:32:44 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 3:32:44 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 3:32:45 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:32:45 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:32:45 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:32:45 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 3:32:47 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 3:32:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:32:47 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 640 ms
+Dec 20, 2022 3:32:47 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 3:32:47 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 3:32:47 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 669 ms
+Dec 20, 2022 3:32:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 3:32:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 54 ms
+Dec 20, 2022 3:32:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 3:32:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 63 ms
+Dec 20, 2022 3:32:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 3:32:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 59 ms
+Dec 20, 2022 3:32:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:32:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:32:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 901 ms
+Dec 20, 2022 3:32:56 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 3:33:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 3:33:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 3:33:58 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 3:33:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:33:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:33:59 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 3:33:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:33:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:33:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:33:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 3:34:02 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 3:34:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:34:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 633 ms
+Dec 20, 2022 3:34:02 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 3:34:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 3:34:02 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 3:34:02 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 3:34:03 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 622 ms
+Dec 20, 2022 3:34:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 3:34:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 73 ms
+Dec 20, 2022 3:34:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 3:34:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 51 ms
+Dec 20, 2022 3:34:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 3:34:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 58 ms
+Dec 20, 2022 3:34:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 3:34:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 3:34:03 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 869 ms
+Dec 20, 2022 3:34:21 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 4:24:33 PM org.apache.catalina.loader.WebappClassLoader modified
+SEVERE:     Resource '/WEB-INF/classes/com/ndn/servlet/MovieServlet.class' is missing
+Dec 20, 2022 4:24:33 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 4:24:34 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 4:24:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 5:14:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:14:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:14:59 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 5:14:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:14:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:14:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:14:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:15:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 5:15:03 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 5:15:06 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:15:06 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:15:06 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3623 ms
+Dec 20, 2022 5:15:06 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 5:15:06 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 5:15:07 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 5:15:07 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 5:15:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 1,563 ms
+Dec 20, 2022 5:15:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 5:15:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 87 ms
+Dec 20, 2022 5:15:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 5:15:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 72 ms
+Dec 20, 2022 5:15:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 5:15:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 81 ms
+Dec 20, 2022 5:15:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:15:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:15:08 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2425 ms
+Dec 20, 2022 5:16:26 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 5:17:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 5:17:19 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 5:17:19 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 5:17:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:17:21 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:17:21 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 5:17:21 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:17:21 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:17:21 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:17:21 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 5:17:23 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 5:17:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:17:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:17:23 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 884 ms
+Dec 20, 2022 5:17:23 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 5:17:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 5:17:24 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 5:17:24 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 5:17:24 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 704 ms
+Dec 20, 2022 5:17:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 5:17:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 115 ms
+Dec 20, 2022 5:17:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 5:17:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 126 ms
+Dec 20, 2022 5:17:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 5:17:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 67 ms
+Dec 20, 2022 5:17:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:17:25 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:17:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1136 ms
+Dec 20, 2022 5:17:28 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 5:19:54 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:19:54 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:19:54 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 5:19:54 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 5:19:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:19:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:19:54 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:19:54 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 5:19:56 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 5:19:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:19:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 653 ms
+Dec 20, 2022 5:19:56 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 5:19:56 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 5:19:56 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 5:19:57 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 5:19:57 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 730 ms
+Dec 20, 2022 5:19:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 5:19:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 54 ms
+Dec 20, 2022 5:19:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 5:19:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 68 ms
+Dec 20, 2022 5:19:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 5:19:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 58 ms
+Dec 20, 2022 5:19:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:19:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:19:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 967 ms
+Dec 20, 2022 5:20:01 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 5:22:54 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:22:54 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:22:54 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 5:22:54 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 5:22:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:22:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:22:54 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:22:54 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:22:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 5:22:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 5:22:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 5:22:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 5:22:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 5:22:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 5:22:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 5:22:56 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 5:22:57 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 5:22:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:22:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 605 ms
+Dec 20, 2022 5:22:57 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 5:22:57 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 5:22:57 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 760 ms
+Dec 20, 2022 5:22:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 5:22:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 51 ms
+Dec 20, 2022 5:22:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 5:22:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 53 ms
+Dec 20, 2022 5:22:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 5:22:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 59 ms
+Dec 20, 2022 5:22:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:22:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:22:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 985 ms
+Dec 20, 2022 5:23:05 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 5:23:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:23:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:23:27 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 5:23:27 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 5:23:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:23:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:23:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:23:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 5:23:29 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 5:23:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:23:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 533 ms
+Dec 20, 2022 5:23:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 5:23:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 5:23:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 5:23:29 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 5:23:30 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 595 ms
+Dec 20, 2022 5:23:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 5:23:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 60 ms
+Dec 20, 2022 5:23:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 5:23:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 65 ms
+Dec 20, 2022 5:23:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 5:23:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 57 ms
+Dec 20, 2022 5:23:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:23:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:23:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 830 ms
+Dec 20, 2022 5:26:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] has started
+Dec 20, 2022 5:26:00 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 5:26:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:26:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:26:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [] is completed
+Dec 20, 2022 5:26:00 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 5:26:00 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:26:00 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:26:00 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:26:00 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.62
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2015 17:14:55 UTC
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.62.0
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.19.15-201.fc36.x86_64
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /home/admin/eclipse-workspace/CustomerManagementProject/jdk1.8.0_281/jre
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_281-b09
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/logging.properties
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1536m
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx4096m
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=utf-8
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xverify:none
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dlog4j1.compatibility=true
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/endorsed
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/temp
+Dec 20, 2022 5:26:02 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 20, 2022 5:26:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:26:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 526 ms
+Dec 20, 2022 5:26:02 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 20, 2022 5:26:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.62
+Dec 20, 2022 5:26:02 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml
+Dec 20, 2022 5:26:02 PM org.apache.catalina.core.StandardContext setPath
+WARNING: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+Dec 20, 2022 5:26:03 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/conf/Catalina/localhost/ROOT.xml has finished in 723 ms
+Dec 20, 2022 5:26:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs
+Dec 20, 2022 5:26:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/docs has finished in 85 ms
+Dec 20, 2022 5:26:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager
+Dec 20, 2022 5:26:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/host-manager has finished in 89 ms
+Dec 20, 2022 5:26:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager
+Dec 20, 2022 5:26:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/admin/eclipse-workspace/CustomerManagementProject/apache-tomcat-7.0.62/webapps/manager has finished in 67 ms
+Dec 20, 2022 5:26:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:26:03 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:26:03 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1035 ms
+Dec 20, 2022 5:26:42 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 20, 2022 5:31:02 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:31:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:31:03 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 20, 2022 5:31:03 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Dec 20, 2022 5:31:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:31:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 20, 2022 5:31:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 20, 2022 5:31:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

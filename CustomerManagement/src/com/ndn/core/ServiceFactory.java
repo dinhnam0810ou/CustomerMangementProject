@@ -3,8 +3,14 @@ package com.ndn.core;
 import java.util.HashMap;
 import java.util.Map;
 
+
 import com.ndn.service.ICustomerService;
+import com.ndn.service.IMovieService;
+import com.ndn.service.ITicketOrderService;
 import com.ndn.service.impl.CustomerService;
+import com.ndn.service.impl.MovieService;
+import com.ndn.service.impl.TicketOrderService;
+
 
 
 
@@ -17,6 +23,8 @@ public class ServiceFactory {
     
     private static void init() {
         ServiceFactory.register(ICustomerService.class, new CustomerService());
+        ServiceFactory.register(IMovieService.class, new MovieService());
+        ServiceFactory.register(ITicketOrderService.class, new TicketOrderService());
     }
     
     @SuppressWarnings("unchecked")
