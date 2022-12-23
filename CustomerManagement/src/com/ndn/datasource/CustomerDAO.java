@@ -11,11 +11,11 @@ import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.ndn.enums.Gender;
 import com.ndn.enums.MembershipLevel;
 import com.ndn.model.Customer;
 import com.ndn.model.PaginatedResult;
-import com.ndn.utils.PageUtils;
+import com.ndn.utils.ViewUtils;
+import com.ndn.utils.CreateUnitUtils;
 import com.ndn.utils.ValidationUtils;
 
 public class CustomerDAO {
@@ -41,24 +41,7 @@ public class CustomerDAO {
             preparedStatement.setInt(1, id);
             ResultSet rs = preparedStatement.executeQuery();
             rs.next();
-            
-            int customerId = rs.getInt("id");
-            String name = rs.getString("name");
-            Gender gender = Gender.valueOf(rs.getString("gender"));
-            String phoneNumber = rs.getString("phone_number");
-            String address = rs.getString("address");
-            String email = rs.getString("email");
-            int point = rs.getInt("point");
-            int useFreeTicket = rs.getInt("useticketfree");
-            Customer customer = new Customer();
-            customer.setId(customerId);
-            customer.setName(name);
-            customer.setGender(gender);
-            customer.setPhoneNumber(phoneNumber);
-            customer.setAddress(address);
-            customer.setEmail(email);
-            customer.setPoint(point);
-            customer.setUseFreeTicket(useFreeTicket);
+            Customer customer = CreateUnitUtils.createCustomerFromResultSet(rs);
             return customer;
             
         } catch (SQLException e) {
@@ -67,7 +50,6 @@ public class CustomerDAO {
             closeQuietly(preparedStatement);
         }
     }
-    
     public void addCustomer(Customer customer) {
         Connection connection = DatabaseConnection.getConnection();
         PreparedStatement preparedStatement = null;
@@ -111,7 +93,7 @@ public class CustomerDAO {
             preparedStatement.setString(4, customer.getAddress());
             preparedStatement.setString(5, customer.getEmail());
             preparedStatement.setInt(6, customer.getPoint());
-            preparedStatement.setInt(7, customer.getUseFreeTicket());
+            preparedStatement.setInt(7, customer.getUsedFreeTicketAmount());
             preparedStatement.setInt(8, customer.getId());
             
             preparedStatement.executeUpdate();
@@ -125,7 +107,7 @@ public class CustomerDAO {
     public PaginatedResult<Customer> getCustomers(String name, String gender, String phoneNumber, String membershipLevel, int pageIndex) {
         PaginatedResult<Customer> paginatedResult = new PaginatedResult<>();
         int count = 0;
-        int offset = PageUtils.caculateOffset(pageIndex);
+        int offset = ViewUtils.calculateOffset(pageIndex);
         String selectSqlString = "select * from customer";        
         String countSqlString = "select count(*) from customer"; 
         String subSql = "";
@@ -183,26 +165,10 @@ public class CustomerDAO {
             }
             
             preparedStatementSelect.setInt(++ index, offset);
-            preparedStatementSelect.setInt(++ index, PageUtils.PAGE_SIZE);
+            preparedStatementSelect.setInt(++ index, ViewUtils.PAGE_SIZE);
             ResultSet selectResultSet = preparedStatementSelect.executeQuery();
             while(selectResultSet.next()) {
-                int customerId = selectResultSet.getInt("id");
-                String customerName = selectResultSet.getString("name");
-                String customerGender = selectResultSet.getString("gender");   
-                String customerPhoneNumber = selectResultSet.getString("phone_number");
-                String customerAddress = selectResultSet.getString("address");
-                String customerEmail = selectResultSet.getString("email");
-                int customerPoint = selectResultSet.getInt("point");
-                int useFreeTicket = selectResultSet.getInt("useticketfree");
-                Customer customer = new Customer();
-                customer.setId(customerId);
-                customer.setName(customerName);
-                customer.setGender(Gender.valueOf(customerGender));
-                customer.setPhoneNumber(customerPhoneNumber);
-                customer.setAddress(customerAddress);
-                customer.setEmail(customerEmail);
-                customer.setPoint(customerPoint);
-                customer.setUseFreeTicket(useFreeTicket);
+                Customer customer = CreateUnitUtils.createCustomerFromResultSet(selectResultSet);
                 customers.add(customer);
             }
             ResultSet countResultSet = preparedStatementCount.executeQuery();
@@ -226,23 +192,7 @@ public class CustomerDAO {
             preparedStatement = DatabaseConnection.getConnection().prepareStatement("select * from customer order by name");
             ResultSet rs = preparedStatement.executeQuery();
             while (rs.next()) {
-                int customerId = rs.getInt("id");
-                String name = rs.getString("name");
-                Gender gender = Gender.valueOf(rs.getString("gender"));
-                String phoneNumber = rs.getString("phone_number");
-                String address = rs.getString("address");
-                String email = rs.getString("email");
-                int point = rs.getInt("point");
-                int useFreeTicket = rs.getInt("useticketfree");
-                Customer customer = new Customer();
-                customer.setId(customerId);
-                customer.setName(name);
-                customer.setGender(gender);
-                customer.setPhoneNumber(phoneNumber);
-                customer.setAddress(address);
-                customer.setEmail(email);
-                customer.setPoint(point);
-                customer.setUseFreeTicket(useFreeTicket);
+                Customer customer = CreateUnitUtils.createCustomerFromResultSet(rs);
                 customers.add(customer);
             }
             return customers;

@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import com.ndn.model.Movie;
 import com.ndn.model.PaginatedResult;
+import com.ndn.utils.CreateUnitUtils;
 
 public class MovieDAO {
     public PaginatedResult<Movie> getMovies() {
@@ -20,13 +21,7 @@ public class MovieDAO {
             preparedStatement = DatabaseConnection.getConnection().prepareStatement(sql);    
             ResultSet rs = preparedStatement.executeQuery();
             while ( rs.next()) {
-                int id = rs.getInt("id");
-                String name = rs.getString("name");
-                double price = rs.getDouble("price");
-                Movie movie = new Movie();
-                movie.setId(id);
-                movie.setName(name);
-                movie.setPrice(price);
+                Movie movie = CreateUnitUtils.createMovieFromResultSet(rs);
                 movies.add(movie);
             }
             paginatedResult.setItems(movies);
@@ -38,7 +33,7 @@ public class MovieDAO {
             closeQuietly(preparedStatement);
         }
     }
-
+    
     private void closeQuietly(Statement statement) {
         if (statement != null)
             try {
@@ -55,14 +50,7 @@ public class MovieDAO {
             preparedStatement.setInt(1, movieId);
             ResultSet rs = preparedStatement.executeQuery();
             rs.next();
-            
-            int id = rs.getInt("id");
-            String name = rs.getString("name");
-            double price = rs.getDouble("price");
-            Movie movie = new Movie();
-            movie.setId(id);
-            movie.setName(name);
-            movie.setPrice(price);
+            Movie movie = CreateUnitUtils.createMovieFromResultSet(rs);
             return movie;
             
         } catch (SQLException e) {

@@ -11,7 +11,7 @@
              <th width="100">Unit Price</th>
              <th width="200">Customer</th>
              <th width="300">Movie</th>
-             <th width="100">Action</th>
+             <th width="60">Action</th>
          </tr>
      </thead>
      <tbody>
@@ -20,15 +20,9 @@
              <td><c:out value="${t.orderDate}" /></td>
              <td><c:out value="${t.quantity}" /></td>
              <td><c:out value="${t.unitPrice}" /></td>
-             <c:if test="${t.customer != null}">
-                <td><c:out value="${t.customer}" /></td>
-             </c:if>
-              <c:if test="${t.customer == null}">
-                <td><c:out value="Empty" /></td>
-             </c:if>
-             <td><c:out value="${t.movie}" /></td>
+             <td><c:out value="${t.customer.name}" /></td>
+             <td><c:out value="${t.movie.name}" /></td>
              <td>
-                 <a href="/order/view?id=${t.id}">View</a>
                  <a href="/order/delete?id=${t.id}">Delete</a>
                  <a href="/order/edit?id=${t.id}">Edit</a>
              </td>

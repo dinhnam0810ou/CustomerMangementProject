@@ -5,7 +5,7 @@ import com.ndn.model.Movie;
 import com.ndn.model.PaginatedResult;
 import com.ndn.service.IMovieService;
 
-public class MovieService implements IMovieService{
+public class MovieService implements IMovieService {
     MovieDAO movieDAO = new MovieDAO();
     @Override
     public PaginatedResult<Movie> getMovies() {

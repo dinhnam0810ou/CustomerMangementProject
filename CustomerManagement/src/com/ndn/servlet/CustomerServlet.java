@@ -15,7 +15,7 @@ import com.ndn.enums.MembershipLevel;
 import com.ndn.model.Customer;
 import com.ndn.model.PaginatedResult;
 import com.ndn.service.ICustomerService;
-import com.ndn.utils.PageUtils;
+import com.ndn.utils.ViewUtils;
 import com.ndn.utils.ValidationUtils;
 
 @WebServlet(urlPatterns = "/customer/*")
@@ -44,7 +44,7 @@ public class CustomerServlet extends HttpServlet{
             req.setAttribute("customers", paginatedResult.getItems());
             req.setAttribute("counter", paginatedResult.getCount());        
             req.setAttribute("queryString", queryString);
-            req.setAttribute("pageSize", PageUtils.PAGE_SIZE);
+            req.setAttribute("pageSize", ViewUtils.PAGE_SIZE);
             req.setAttribute("genders", Gender.values());
             req.setAttribute("membershipLevels", MembershipLevel.values());
             getServletContext().getRequestDispatcher("/pages/customerList.jsp").forward(req, resp);  

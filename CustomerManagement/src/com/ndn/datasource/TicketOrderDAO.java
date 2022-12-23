@@ -14,19 +14,94 @@ import com.ndn.model.Customer;
 import com.ndn.model.Movie;
 import com.ndn.model.PaginatedResult;
 import com.ndn.model.TicketOrder;
-import com.ndn.utils.PageUtils;
-import com.ndn.utils.ValidationUtils;
+import com.ndn.utils.ViewUtils;
+import com.ndn.utils.CreateUnitUtils;
+
 
 
 public class TicketOrderDAO {
-    
+    public TicketOrder getTicketOrderById(int id) {   
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = DatabaseConnection.getConnection().prepareStatement("select * from ticket_order where id = ?");
+            preparedStatement.setInt(1, id);
+            ResultSet rs = preparedStatement.executeQuery();
+            rs.next();
+            int ticketOrderId = rs.getInt("id");
+            Date orderDate = rs.getDate("orderdate");
+            int quantity = rs.getInt("quantity");
+            double unitPrice = rs.getDouble("unitprice");
+            int customerId = rs.getInt("customerid");
+            int movieId = rs.getInt("movieid");
+
+            Movie movie = new Movie();
+            movie.setId(movieId);
+            Customer  customer = null;
+            if (customerId != 0) {
+                customer = new Customer();
+                customer.setId(customerId);
+            }
+            TicketOrder ticketOrder = new TicketOrder();
+            ticketOrder.setId(ticketOrderId);
+            ticketOrder.setOrderDate(orderDate);
+            ticketOrder.setQuantity(quantity);
+            ticketOrder.setUnitPrice(unitPrice);
+            ticketOrder.setMovie(movie);
+            ticketOrder.setCustomer(customer);
+            return ticketOrder;
+            
+        } catch (SQLException e) {
+            return null;
+        } finally {
+            closeQuietly(preparedStatement);
+        }
+    }
+
+    public void updateTicketOrder(TicketOrder ticketOrder) {
+        Connection connection = DatabaseConnection.getConnection();
+        PreparedStatement preparedStatement = null;
+        try {
+            connection.setAutoCommit(false);   
+            preparedStatement = DatabaseConnection.getConnection().
+                    prepareStatement("update ticket_order set orderdate = ?, quantity = ?, unitprice = ?,"
+                            + " movieid = ? where id = ?");
+            preparedStatement.setDate(1, new java.sql.Date(new Date().getTime()));
+            preparedStatement.setInt(2, ticketOrder.getQuantity());
+            preparedStatement.setDouble(3, ticketOrder.getUnitPrice());
+            preparedStatement.setInt(4, ticketOrder.getMovie().getId());
+            preparedStatement.setInt(5, ticketOrder.getId());
+            preparedStatement.executeUpdate();
+            connection.commit();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        } finally {
+            closeQuietly(preparedStatement);
+            try {
+                connection.setAutoCommit(true);
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
+    public void deleteTicketOrderById(int id) {
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = DatabaseConnection.getConnection().prepareStatement("delete from ticket_order where id = ?");
+            preparedStatement.setInt(1, id);
+            preparedStatement.execute();
+            
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            closeQuietly(preparedStatement);
+        }
+    }
     public PaginatedResult<TicketOrder> getTicketOrders(int pageIndex) {
         PaginatedResult<TicketOrder> paginatedResult = new PaginatedResult<>();
         int count = 0;
-        int offset = PageUtils.caculateOffset(pageIndex);
+        int offset = ViewUtils.calculateOffset(pageIndex);
          
-
-
         String selectSqlString = "select\n"
                 + "    to2.*,\n"
                 + "    m.\"name\" as moviename,\n"
@@ -47,30 +122,10 @@ public class TicketOrderDAO {
             preparedStatementSelect = connection.prepareStatement(selectSqlString);
             preparedStatementCount = connection.prepareStatement(countSqlString);   
             preparedStatementSelect.setInt(1 , offset);
-            preparedStatementSelect.setInt(2 , PageUtils.PAGE_SIZE);
+            preparedStatementSelect.setInt(2 , ViewUtils.PAGE_SIZE);
             ResultSet selectResultSet = preparedStatementSelect.executeQuery();
             while(selectResultSet.next()) {
-                int id = selectResultSet.getInt("id");
-                Date orderDate = selectResultSet.getDate("orderdate");
-                int quantity = selectResultSet.getInt("quantity");
-                double unitPrice = selectResultSet.getDouble("unitprice");
-                String customerName = selectResultSet.getString("customername");
-                String movieName = selectResultSet.getString("moviename");
-                
-                Movie movie = new Movie();
-                movie.setName(movieName);
-                Customer customer = null;
-                if (ValidationUtils.isNotEmpty(customerName)) {
-                    customer = new Customer();
-                    customer.setName(customerName);
-                }            
-                TicketOrder ticketOrder = new TicketOrder();
-                ticketOrder.setId(id);
-                ticketOrder.setOrderDate(orderDate);
-                ticketOrder.setQuantity(quantity);
-                ticketOrder.setUnitPrice(unitPrice);
-                ticketOrder.setMovie(movie);
-                ticketOrder.setCustomer(customer);
+                TicketOrder ticketOrder = CreateUnitUtils.createTicketOrderFromResultSet(selectResultSet);
                 ticketOrders.add(ticketOrder);
             }
             ResultSet countResultSet = preparedStatementCount.executeQuery();
@@ -113,7 +168,6 @@ public class TicketOrderDAO {
             }
         }
     }
-    
     private void closeQuietly(Statement statement) {
         if (statement != null)
             try {

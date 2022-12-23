@@ -51,4 +51,5 @@
        <%@include file="header.jsp" %>
        <tag:ticketOrderList></tag:ticketOrderList>   
     </body>
+    
 </html>

@@ -2,7 +2,7 @@ package com.ndn.model;
 
 import com.ndn.enums.Gender;
 import com.ndn.enums.MembershipLevel;
-import com.ndn.utils.ValidationUtils;
+
 
 public class Customer {
     private int id;
@@ -12,37 +12,30 @@ public class Customer {
     private String address;
     private String email;
     private int point;
-    private MembershipLevel membershipLevel;
-    private int ticketFree;
-    private int useTicketFree;
+    private int freeTicketAmount;
+    private int usedFreeTicketAmount;
     public Customer() {}
-    public Customer(String name, Gender gender, String phoneNumber,
-            String address, String email) {
-        if( ValidationUtils.isEmpty(name) || ValidationUtils.isEmpty(gender.toString()) || ValidationUtils.isEmpty(phoneNumber) ) {
-            System.out.println("Customer data can not empty");
-        }
-        else {
+    public Customer(String name, Gender gender, String phoneNumber,String address, String email) {
                 this.name = name;
                 this.gender = gender;
                 this.phoneNumber = phoneNumber;
                 this.address = address;
                 this.email = email;
                 this.point = 0;
-        }  
     }
     
     
     public MembershipLevel getMembershipLevel() {
-          if(this.point < membershipLevel.Gold.getPoint()) return membershipLevel.Silver;
-          if(this.point < membershipLevel.Platinum.getPoint()) return membershipLevel.Gold;
-          return membershipLevel.Platinum;
+          if(this.point < MembershipLevel.Gold.getPoint()) return MembershipLevel.Silver;
+          if(this.point < MembershipLevel.Platinum.getPoint()) return MembershipLevel.Gold;
+          return MembershipLevel.Platinum;
     }
     
     
     public int getTicketFree() {
         MembershipLevel level = getMembershipLevel();
-        ticketFree = level.getTicketFree() - useTicketFree;
-        return ticketFree;
+        freeTicketAmount = level.getTicketFree() - usedFreeTicketAmount >= 0 ? (level.getTicketFree() - usedFreeTicketAmount) : 0;
+        return freeTicketAmount;
     }
 
     public int getId() {
@@ -104,10 +97,11 @@ public class Customer {
     public String toString() {
         return name;
     }
-    public int getUseFreeTicket() {
-        return useTicketFree;
+    public int getUsedFreeTicketAmount() {
+        return usedFreeTicketAmount;
     }
-    public void setUseFreeTicket(int numberOfUse) {
-        this.useTicketFree = numberOfUse;
+    public void setUsedFreeTicketAmount(int usedFreeTicketAmount) {
+        this.usedFreeTicketAmount = usedFreeTicketAmount;
     }
+
 }

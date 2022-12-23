@@ -5,7 +5,7 @@ import java.util.Map;
 
 import com.ndn.enums.Error;
 
-public class PageUtils {
+public class ViewUtils {
     public static final int PAGE_SIZE = 10;
     public static final Map<Error, String> ERROR_MESSAGE = new HashMap<>();
     static {
@@ -15,7 +15,7 @@ public class PageUtils {
     public static String getErrorMessage(Error error) {
         return ERROR_MESSAGE.get(error);
     }
-    public static int caculateOffset(int pageIndex) {
+    public static int calculateOffset(int pageIndex) {
         return pageIndex * PAGE_SIZE;
     }
 }

@@ -9,7 +9,7 @@ import com.ndn.model.Customer;
 import com.ndn.model.PaginatedResult;
 import com.ndn.service.ICustomerService;
 
-public class CustomerService implements ICustomerService{
+public class CustomerService implements ICustomerService {
     
     CustomerDAO customerDAO = new CustomerDAO();
     

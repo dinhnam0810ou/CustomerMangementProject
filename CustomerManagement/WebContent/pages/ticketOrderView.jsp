@@ -70,10 +70,25 @@
             }
        };
        
+       function changePrice() {
+            var selectedMovieId = document.getElementById("movieSelector").value;
+            var selectedOptionNode = document.getElementById("movieOption" + selectedMovieId);
+            var unitPrice = selectedOptionNode.getAttribute("unitPrice");
+            document.getElementById("price").value = unitPrice;
+       }
+       
        document.getElementById("customerSelectionEntry").addEventListener("click", invalidateCustomerInformationSelection);
+       document.getElementById("movieSelector").addEventListener("click", changePrice);
+       
+       
        
        window.addEventListener("load", function () {
         invalidateCustomerInformationSelection();
+        changePrice();
        });
+       
+       
+       
+       
     </script>
 </html>
